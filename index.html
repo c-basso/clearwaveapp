@@ -88,6 +88,7 @@
             color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            overflow-x: hidden;
         }
 
         .container {
@@ -103,7 +104,96 @@
             padding: 80px 0 80px;
             text-align: center;
             color: white;
+            position: relative;
+            overflow: hidden;
         }
+
+        /* Floating Bubbles */
+        .bubble {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        .bubble:nth-child(1) {
+            width: 20px;
+            height: 20px;
+            left: 10%;
+            animation-delay: 0s;
+            animation-duration: 8s;
+        }
+
+        .bubble:nth-child(2) {
+            width: 15px;
+            height: 15px;
+            left: 20%;
+            animation-delay: 2s;
+            animation-duration: 10s;
+        }
+
+        .bubble:nth-child(3) {
+            width: 25px;
+            height: 25px;
+            left: 35%;
+            animation-delay: 4s;
+            animation-duration: 7s;
+        }
+
+        .bubble:nth-child(4) {
+            width: 18px;
+            height: 18px;
+            left: 50%;
+            animation-delay: 1s;
+            animation-duration: 9s;
+        }
+
+        .bubble:nth-child(5) {
+            width: 22px;
+            height: 22px;
+            left: 65%;
+            animation-delay: 3s;
+            animation-duration: 6s;
+        }
+
+        .bubble:nth-child(6) {
+            width: 16px;
+            height: 16px;
+            left: 80%;
+            animation-delay: 5s;
+            animation-duration: 11s;
+        }
+
+        .bubble:nth-child(7) {
+            width: 30px;
+            height: 30px;
+            left: 90%;
+            animation-delay: 2.5s;
+            animation-duration: 8.5s;
+        }
+
+
+
+        /* Animations */
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+
 
         .hero h1 {
             font-size: 3.5rem;
@@ -441,11 +531,22 @@
     <!-- Hero Section -->
     <main>
         <section class="hero">
+            <!-- Floating Bubbles -->
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            
+
+            
             <div class="container">
                 <img src="logo.webp" alt="Clear Wave - Blower App Logo" class="hero-logo fade-in-up">
                 <h1 class="fade-in-up">Clear Wave - Blower</h1>
                 <p class="fade-in-up">Remove dust and water from your speakers with sound waves. Keep your device clean and sound clear with just a tap.</p>
-                <a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087?platform=iphone" class="cta-button fade-in-up" aria-label="Download Clear Wave - Blower on App Store">
+                <a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087?platform=iphone" class="cta-button fade-in-up" aria-label="Download Clear Wave - Blower on App Store" rel="nofollow">
                     <img src="download.svg" alt="Download on App Store">
                 </a>
             </div>
@@ -515,15 +616,15 @@
                 </div>
                 <div class="faq-item">
                     <h3>Does this work on all devices?</h3>
-                    <p>Clear Wave works on iPhone, iPad, iPod touch, and Mac with Apple M1 chip or later. The app is optimized for iOS devices and provides the best results on Apple hardware.</p>
+                    <p>Clear Wave works on iPhone and iPad devices. The app is optimized for iOS and provides the best results on Apple hardware. It requires iOS 15.1 or later.</p>
                 </div>
                 <div class="faq-item">
                     <h3>How long should I play the sound to remove water?</h3>
-                    <p>Usually 10-30 seconds is enough, but you can repeat the process if needed. The app provides visual feedback to help you determine when the water has been successfully ejected.</p>
+                    <p>Usually 10-30 seconds is enough, but you can repeat the process if needed. You can test your speaker volume after each cycle to check if the sound has improved.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>What makes Clear Wave different from web-based tools?</h3>
-                    <p>Clear Wave is a native iOS app that offers better performance, offline access, and additional features like frequency tone generator, decibel meter, and stereo channel testing - all in one professional app.</p>
+                    <h3>What if the water ejection doesn't work?</h3>
+                    <p>If water ejection doesn't work immediately, try repeating the process 2-3 times. For stubborn water, you can also try the frequency tone generator at different frequencies. If the problem persists, it might indicate hardware damage that requires professional repair.</p>
                 </div>
                 <div class="faq-item">
                     <h3>Is the app free to use?</h3>
@@ -542,7 +643,7 @@
         <div class="container">
             <h3>Get Clear Wave Today</h3>
             <p>Don't let water or debris ruin your sound. Download Clear Wave - Blower now and enjoy rich, clear audio every time.</p>
-            <a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087?platform=iphone" class="cta-button" aria-label="Download Clear Wave - Blower on App Store">
+            <a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087?platform=iphone" class="cta-button" aria-label="Download Clear Wave - Blower on App Store" rel="nofollow">
                 <img src="download.svg" alt="Download on App Store">
             </a>
         </div>
@@ -557,9 +658,9 @@
                     © 2025 c-basso. All rights reserved.
                 </div>
                 <ul class="footer-links">
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms of Use</a></li>
-                    <li><a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087?platform=iphone">App Store</a></li>
+                    <li><a href="privacy.html" rel="nofollow">Privacy Policy</a></li>
+                    <li><a href="terms.html" rel="nofollow">Terms of Use</a></li>
+                    <li><a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087?platform=iphone" rel="nofollow">App Store</a></li>
                 </ul>
             </div>
         </div>
