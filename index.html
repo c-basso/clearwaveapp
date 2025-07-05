@@ -111,6 +111,7 @@
             color: white;
             position: relative;
             overflow: hidden;
+            background: url('bg.jpg') center center/cover no-repeat;
         }
 
         /* Floating Bubbles */
@@ -222,6 +223,8 @@
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5);
+            font-weight: 500;
         }
 
         .cta-button {
@@ -239,7 +242,7 @@
         }
 
         .cta-button img {
-            width: 200px;
+            width: 180px;
             height: auto;
             display: block;
         }
@@ -263,6 +266,13 @@
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
+        }
+
+        /* Center the last feature card on desktop when there are 4 cards */
+        @media (min-width: 768px) {
+            .features-grid .feature-card:last-child:nth-child(4n) {
+                grid-column: 2 / 3;
+            }
         }
 
         .feature-card {
@@ -472,6 +482,7 @@
             width: 150px;
             height: 150px;
             border-radius: 30px;
+            border: 3px dashed black;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
         
@@ -522,6 +533,11 @@
         @media (max-width: 480px) {
             .hero h1 {
                 font-size: 2rem;
+            }
+
+            .hero-logo {
+                width: 150px;
+                height: 150px;
             }
 
             .section-title {
@@ -595,7 +611,9 @@
 
             
             <div class="container">
-                <img src="logo.webp" alt="Clear Wave - Blower App Logo" class="hero-logo fade-in-up">
+                <a href="https://apps.apple.com/app/id6742754087" rel="nofollow" aria-label="Download Clear Wave - Blower on App Store">
+                    <img src="logo.webp" alt="Clear Wave - Blower App Logo" class="hero-logo fade-in-up">
+                </a>
                 <h1 class="fade-in-up">Clear Wave - Blower</h1>
                 <p class="fade-in-up">Remove dust and water from your speakers with sound waves. Keep your device clean and sound clear with just a tap.</p>
                 <a href="https://apps.apple.com/app/id6742754087" class="cta-button fade-in-up desktop-qr" aria-label="Download Clear Wave - Blower on App Store" rel="nofollow">
