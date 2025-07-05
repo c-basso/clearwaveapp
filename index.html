@@ -72,7 +72,7 @@
             "@type": "Person",
             "name": "Vladimir Ivakhnenko"
         },
-        "downloadUrl": "https://apps.apple.com/us/app/clear-wave-blower/id6742754087",
+        "downloadUrl": "https://apps.apple.com/app/id6742754087",
         "screenshot": "https://clearwaveapp.com/logo.webp",
         "softwareVersion": "1.1.0",
         "datePublished": "2025-01-01",
@@ -459,6 +459,30 @@
             font-size: 0.9rem;
         }
 
+        /* QR Code and Download Button Responsive Styles */
+        .desktop-qr {
+            display: inline-block;
+        }
+        
+        .mobile-download {
+            display: none;
+        }
+        
+        .qr-code {
+            width: 150px;
+            height: 150px;
+            border-radius: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .qr-text {
+            display: block;
+            margin-top: 8px;
+            font-size: 0.9rem;
+            color: white;
+            opacity: 0.9;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .hero h1 {
@@ -469,7 +493,13 @@
                 font-size: 1.1rem;
             }
 
-
+            .desktop-qr {
+                display: none;
+            }
+            
+            .mobile-download {
+                display: inline-block;
+            }
 
             .features-grid {
                 grid-template-columns: 1fr;
@@ -568,7 +598,11 @@
                 <img src="logo.webp" alt="Clear Wave - Blower App Logo" class="hero-logo fade-in-up">
                 <h1 class="fade-in-up">Clear Wave - Blower</h1>
                 <p class="fade-in-up">Remove dust and water from your speakers with sound waves. Keep your device clean and sound clear with just a tap.</p>
-                <a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087" class="cta-button fade-in-up" aria-label="Download Clear Wave - Blower on App Store" rel="nofollow">
+                <a href="https://apps.apple.com/app/id6742754087" class="cta-button fade-in-up desktop-qr" aria-label="Download Clear Wave - Blower on App Store" rel="nofollow">
+                    <img src="qr.png" alt="QR Code to download Clear Wave" class="qr-code">
+                    <span class="qr-text">Scan to download</span>
+                </a>
+                <a href="https://apps.apple.com/app/id6742754087" class="cta-button fade-in-up mobile-download" aria-label="Download Clear Wave - Blower on App Store" rel="nofollow">
                     <img src="download.svg" alt="Download on App Store">
                 </a>
             </div>
@@ -665,7 +699,7 @@
         <div class="container">
             <h3>Get Clear Wave Today</h3>
             <p>Don't let water or debris ruin your sound. Download Clear Wave - Blower now and enjoy rich, clear audio every time.</p>
-            <a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087" class="cta-button" aria-label="Download Clear Wave - Blower on App Store" rel="nofollow">
+            <a href="https://apps.apple.com/app/id6742754087" class="cta-button" aria-label="Download Clear Wave - Blower on App Store" rel="nofollow">
                 <img src="download.svg" alt="Download on App Store">
             </a>
         </div>
@@ -682,7 +716,7 @@
                 <ul class="footer-links">
                     <li><a href="privacy.html" rel="nofollow">Privacy Policy</a></li>
                     <li><a href="terms.html" rel="nofollow">Terms of Use</a></li>
-                    <li><a href="https://apps.apple.com/us/app/clear-wave-blower/id6742754087" rel="nofollow">App Store</a></li>
+                    <li><a href="https://apps.apple.com/app/id6742754087" rel="nofollow">App Store</a></li>
                 </ul>
             </div>
         </div>
