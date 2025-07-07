@@ -4,12 +4,4 @@
     <loc>https://clearwaveapp.com/</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://clearwaveapp.com/privacy.html</loc>
-    <priority>0.0</priority>
-  </url>
-  <url>
-    <loc>https://clearwaveapp.com/terms.html</loc>
-    <priority>0.0</priority>
-  </url>
 </urlset> 
