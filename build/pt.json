@@ -1,102 +1,102 @@
 {
     "meta": {
-      "lang": "en",
-      "language": "English",
-      "altenate_url": "https://clearwaveapp.com/",
-      "title": "Clear Wave – Remove Water from iPhone Speakers Fast | iOS Sound Blower",
-      "description": "Fix muffled iPhone speaker sound fast! Clear Wave uses safe sound waves to eject trapped water and dust. Includes frequency generator and audio tools.",
-      "keywords": "speaker cleaner, water eject, iPhone speaker, audio tool, sound waves, speaker maintenance, water damage, phone speaker, iOS app, free app",
+      "lang": "pt",
+      "language": "Português",
+      "altenate_url": "https://clearwaveapp.com/pt",
+      "title": "Clear Wave – Remova Água dos Alto-falantes do iPhone Rapidamente | Soprador de Som iOS",
+      "description": "Corrija o som abafado dos alto-falantes do iPhone rapidamente! Clear Wave usa ondas sonoras seguras para ejetar água e poeira presas. Inclui gerador de frequência e ferramentas de áudio.",
+      "keywords": "limpador de alto-falantes, ejetar água, alto-falante iPhone, ferramenta de áudio, ondas sonoras, manutenção de alto-falantes, dano por água, alto-falante do telefone, app iOS, app gratuito",
       "author": "Vladimir Ivakhnenko",
-      "og_title": "Clear Wave - Blower | Remove Water from iPhone Speakers",
-      "og_description": "Free app to remove water and dust from iPhone speakers using sound waves. Includes water ejection, tone generator, decibel meter, and stereo test.",
-      "og_site_name": "Clear Wave - Blower",
-      "twitter_title": "Clear Wave - Blower | Remove Water from iPhone Speakers",
-      "twitter_description": "Free app to remove water and dust from iPhone speakers using sound waves. Download now!",
+      "og_title": "Clear Wave - Soprador | Remova Água dos Alto-falantes do iPhone",
+      "og_description": "App gratuito para remover água e poeira dos alto-falantes do iPhone usando ondas sonoras. Inclui ejeção de água, gerador de tons, medidor de decibéis e teste estéreo.",
+      "og_site_name": "Clear Wave - Soprador",
+      "twitter_title": "Clear Wave - Soprador | Remova Água dos Alto-falantes do iPhone",
+      "twitter_description": "App gratuito para remover água e poeira dos alto-falantes do iPhone usando ondas sonoras. Baixe agora!",
       "apple_mobile_web_app_title": "Clear Wave"
     },
     "hero": {
-      "title": "Clear Wave - Blower",
-      "subtitle": "Remove dust and water from your speakers with sound waves. Keep your device clean and sound clear with just a tap.",
-      "qr_text": "Scan to download",
-      "download_alt": "Download on App Store",
-      "logo_alt": "Clear Wave - Blower App Logo",
-      "qr_alt": "QR Code to download Clear Wave",
-      "download_aria_label": "Download Clear Wave - Blower on App Store"
+      "title": "Clear Wave - Soprador",
+      "subtitle": "Remova poeira e água dos seus alto-falantes com ondas sonoras. Mantenha seu dispositivo limpo e o som claro com apenas um toque.",
+      "qr_text": "Escaneie para baixar",
+      "download_alt": "Baixar na App Store",
+      "logo_alt": "Logo do App Clear Wave - Soprador",
+      "qr_alt": "Código QR para baixar Clear Wave",
+      "download_aria_label": "Baixar Clear Wave - Soprador na App Store"
     },
     "features": {
-      "title": "Powerful Audio Tools",
+      "title": "Ferramentas de Áudio Poderosas",
       "water_ejection": {
-        "title": "Water Ejection",
-        "description": "Use precision-engineered sound waves to push out trapped water and dust. From spills to rain exposure, restore clear sound in seconds."
+        "title": "Ejeção de Água",
+        "description": "Use ondas sonoras de engenharia de precisão para expulsar água e poeira presas. De derramamentos à exposição à chuva, restaure o som claro em segundos."
       },
       "tone_generator": {
-        "title": "Frequency Tone Generator",
-        "description": "Play custom tones across a wide frequency range to test hearing, tune audio gear, or explore sound waves."
+        "title": "Gerador de Tons de Frequência",
+        "description": "Reproduza tons personalizados em uma ampla faixa de frequência para testar audição, afinar equipamentos de áudio ou explorar ondas sonoras."
       },
       "decibel_meter": {
-        "title": "Decibel Noise Meter",
-        "description": "Get real-time readings of surrounding noise levels. Perfect for checking safe listening volumes or analyzing noise."
+        "title": "Medidor de Ruído em Decibéis",
+        "description": "Obtenha leituras em tempo real dos níveis de ruído ao redor. Perfeito para verificar volumes seguros de audição ou analisar ruído."
       },
       "stereo_test": {
-        "title": "Stereo Channel Test",
-        "description": "Quickly test left and right channels to ensure your device's audio is playing correctly. Great for diagnosing problems."
+        "title": "Teste de Canal Estéreo",
+        "description": "Teste rapidamente os canais esquerdo e direito para garantir que o áudio do seu dispositivo está funcionando corretamente. Ótimo para diagnosticar problemas."
       }
     },
     "app_info": {
-      "title": "Why Users Love Clear Wave",
-      "description1": "Fast, safe, and effective speaker cleaning using tested audio frequencies—no risk of damage. Simple and intuitive design with no tech skills needed.",
-      "description2": "All-in-one audio tool with pro-level sound testing features in one app.",
+      "title": "Por que os Usuários Adoram o Clear Wave",
+      "description1": "Limpeza de alto-falantes rápida, segura e eficaz usando frequências de áudio testadas—sem risco de dano. Design simples e intuitivo sem necessidade de habilidades técnicas.",
+      "description2": "Ferramenta de áudio completa com recursos de teste de som de nível profissional em um app.",
       "stats": {
         "rating": {
           "value": "5.0",
-          "label": "App Store Rating"
+          "label": "Avaliação na App Store"
         },
         "price": {
-          "value": "Free",
-          "label": "Base App"
+          "value": "Grátis",
+          "label": "App Base"
         }
       }
     },
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "Perguntas Frequentes",
       "questions": [
         {
-          "question": "Will this damage my speakers?",
-          "answer": "No, the sound waves are safe and won't damage your speakers. It's basically the same as playing music on your phone, but with carefully calibrated frequencies designed specifically for water ejection."
+          "question": "Isso vai danificar meus alto-falantes?",
+          "answer": "Não, as ondas sonoras são seguras e não danificarão seus alto-falantes. É basicamente o mesmo que tocar música no seu telefone, mas com frequências cuidadosamente calibradas projetadas especificamente para ejeção de água."
         },
         {
-          "question": "Does this work on all devices?",
-          "answer": "Clear Wave works on iPhone and iPad devices. The app is optimized for iOS and provides the best results on Apple hardware. It requires iOS 15.1 or later."
+          "question": "Isso funciona em todos os dispositivos?",
+          "answer": "Clear Wave funciona em dispositivos iPhone e iPad. O app é otimizado para iOS e fornece os melhores resultados em hardware Apple. Requer iOS 15.1 ou posterior."
         },
         {
-          "question": "How long should I play the sound to remove water?",
-          "answer": "Usually 10-30 seconds is enough, but you can repeat the process if needed. You can test your speaker volume after each cycle to check if the sound has improved."
+          "question": "Por quanto tempo devo tocar o som para remover a água?",
+          "answer": "Geralmente 10-30 segundos é suficiente, mas você pode repetir o processo se necessário. Você pode testar o volume do seu alto-falante após cada ciclo para verificar se o som melhorou."
         },
         {
-          "question": "What if the water ejection doesn't work?",
-          "answer": "If water ejection doesn't work immediately, try repeating the process 2-3 times. For stubborn water, you can also try the frequency tone generator at different frequencies. If the problem persists, it might indicate hardware damage that requires professional repair."
+          "question": "E se a ejeção de água não funcionar?",
+          "answer": "Se a ejeção de água não funcionar imediatamente, tente repetir o processo 2-3 vezes. Para água teimosa, você também pode tentar o gerador de tons de frequência em diferentes frequências. Se o problema persistir, pode indicar dano de hardware que requer reparo profissional."
         },
         {
-          "question": "Is the app free to use?",
-          "answer": "Clear Wave is free to download with basic water ejection features. Premium features like the advanced tone generator are available through in-app purchases for power users."
+          "question": "O app é gratuito para usar?",
+          "answer": "Clear Wave é gratuito para baixar com recursos básicos de ejeção de água. Recursos premium como o gerador de tons avançado estão disponíveis através de compras no app para usuários avançados."
         },
         {
-          "question": "Can I use this for other audio testing?",
-          "answer": "Yes! Clear Wave includes professional audio tools for testing hearing, tuning audio gear, monitoring noise levels, and checking stereo channel balance - making it an all-in-one audio toolkit."
+          "question": "Posso usar isso para outros testes de áudio?",
+          "answer": "Sim! Clear Wave inclui ferramentas de áudio profissionais para testar audição, afinar equipamentos de áudio, monitorar níveis de ruído e verificar o equilíbrio de canais estéreo - tornando-o um kit de ferramentas de áudio completo."
         }
       ]
     },
     "download": {
-      "title": "Get Clear Wave Today",
-      "description": "Don't let water or debris ruin your sound. Download Clear Wave - Blower now and enjoy rich, clear audio every time.",
-      "download_alt": "Download on App Store",
-      "download_aria_label": "Download Clear Wave - Blower on App Store"
+      "title": "Obtenha o Clear Wave Hoje",
+      "description": "Não deixe água ou detritos arruinarem seu som. Baixe Clear Wave - Soprador agora e desfrute de áudio rico e claro sempre.",
+      "download_alt": "Baixar na App Store",
+      "download_aria_label": "Baixar Clear Wave - Soprador na App Store"
     },
     "footer": {
-      "copyright": "© 2025 c-basso. All rights reserved.",
+      "copyright": "© 2025 c-basso. Todos os direitos reservados.",
       "links": {
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Use",
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Uso",
         "app_store": "App Store"
       }
     }

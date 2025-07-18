@@ -1,102 +1,102 @@
 {
     "meta": {
-      "lang": "en",
-      "language": "English",
-      "altenate_url": "https://clearwaveapp.com/",
-      "title": "Clear Wave – Remove Water from iPhone Speakers Fast | iOS Sound Blower",
-      "description": "Fix muffled iPhone speaker sound fast! Clear Wave uses safe sound waves to eject trapped water and dust. Includes frequency generator and audio tools.",
-      "keywords": "speaker cleaner, water eject, iPhone speaker, audio tool, sound waves, speaker maintenance, water damage, phone speaker, iOS app, free app",
+      "lang": "tr",
+      "language": "Türkçe",
+      "altenate_url": "https://clearwaveapp.com/tr",
+      "title": "Clear Wave – iPhone Hoparlörlerinden Suyu Hızlıca Çıkarın | iOS Ses Üfleyici",
+      "description": "Boğuk iPhone hoparlör sesini hızlıca düzeltin! Clear Wave, hapsolmuş su ve tozu çıkarmak için güvenli ses dalgaları kullanır. Frekans üreteci ve ses araçları içerir.",
+      "keywords": "hoparlör temizleyici, su çıkarma, iPhone hoparlör, ses aracı, ses dalgaları, hoparlör bakımı, su hasarı, telefon hoparlörü, iOS uygulaması, ücretsiz uygulama",
       "author": "Vladimir Ivakhnenko",
-      "og_title": "Clear Wave - Blower | Remove Water from iPhone Speakers",
-      "og_description": "Free app to remove water and dust from iPhone speakers using sound waves. Includes water ejection, tone generator, decibel meter, and stereo test.",
-      "og_site_name": "Clear Wave - Blower",
-      "twitter_title": "Clear Wave - Blower | Remove Water from iPhone Speakers",
-      "twitter_description": "Free app to remove water and dust from iPhone speakers using sound waves. Download now!",
+      "og_title": "Clear Wave - Üfleyici | iPhone Hoparlörlerinden Suyu Çıkarın",
+      "og_description": "Ses dalgaları kullanarak iPhone hoparlörlerinden su ve tozu çıkarmak için ücretsiz uygulama. Su çıkarma, ton üreteci, desibel ölçer ve stereo test içerir.",
+      "og_site_name": "Clear Wave - Üfleyici",
+      "twitter_title": "Clear Wave - Üfleyici | iPhone Hoparlörlerinden Suyu Çıkarın",
+      "twitter_description": "Ses dalgaları kullanarak iPhone hoparlörlerinden su ve tozu çıkarmak için ücretsiz uygulama. Şimdi indirin!",
       "apple_mobile_web_app_title": "Clear Wave"
     },
     "hero": {
-      "title": "Clear Wave - Blower",
-      "subtitle": "Remove dust and water from your speakers with sound waves. Keep your device clean and sound clear with just a tap.",
-      "qr_text": "Scan to download",
-      "download_alt": "Download on App Store",
-      "logo_alt": "Clear Wave - Blower App Logo",
-      "qr_alt": "QR Code to download Clear Wave",
-      "download_aria_label": "Download Clear Wave - Blower on App Store"
+      "title": "Clear Wave - Üfleyici",
+      "subtitle": "Ses dalgaları ile hoparlörlerinizden toz ve suyu çıkarın. Cihazınızı temiz tutun ve sadece bir dokunuşla net ses elde edin.",
+      "qr_text": "İndirmek için tara",
+      "download_alt": "App Store'dan İndir",
+      "logo_alt": "Clear Wave - Üfleyici Uygulama Logosu",
+      "qr_alt": "Clear Wave'ı indirmek için QR Kod",
+      "download_aria_label": "App Store'dan Clear Wave - Üfleyici'yi İndir"
     },
     "features": {
-      "title": "Powerful Audio Tools",
+      "title": "Güçlü Ses Araçları",
       "water_ejection": {
-        "title": "Water Ejection",
-        "description": "Use precision-engineered sound waves to push out trapped water and dust. From spills to rain exposure, restore clear sound in seconds."
+        "title": "Su Çıkarma",
+        "description": "Hapsolmuş su ve tozu çıkarmak için hassas mühendislik ürünü ses dalgaları kullanın. Dökülmelerden yağmur maruziyetine kadar, saniyeler içinde net sesi geri yükleyin."
       },
       "tone_generator": {
-        "title": "Frequency Tone Generator",
-        "description": "Play custom tones across a wide frequency range to test hearing, tune audio gear, or explore sound waves."
+        "title": "Frekans Ton Üreteci",
+        "description": "İşitmeyi test etmek, ses ekipmanını ayarlamak veya ses dalgalarını keşfetmek için geniş frekans aralığında özel tonlar çalın."
       },
       "decibel_meter": {
-        "title": "Decibel Noise Meter",
-        "description": "Get real-time readings of surrounding noise levels. Perfect for checking safe listening volumes or analyzing noise."
+        "title": "Desibel Gürültü Ölçer",
+        "description": "Çevredeki gürültü seviyelerinin gerçek zamanlı okumalarını alın. Güvenli dinleme seslerini kontrol etmek veya gürültüyü analiz etmek için mükemmel."
       },
       "stereo_test": {
-        "title": "Stereo Channel Test",
-        "description": "Quickly test left and right channels to ensure your device's audio is playing correctly. Great for diagnosing problems."
+        "title": "Stereo Kanal Testi",
+        "description": "Cihazınızın sesinin doğru çaldığından emin olmak için sol ve sağ kanalları hızlıca test edin. Sorunları teşhis etmek için harika."
       }
     },
     "app_info": {
-      "title": "Why Users Love Clear Wave",
-      "description1": "Fast, safe, and effective speaker cleaning using tested audio frequencies—no risk of damage. Simple and intuitive design with no tech skills needed.",
-      "description2": "All-in-one audio tool with pro-level sound testing features in one app.",
+      "title": "Kullanıcılar Neden Clear Wave'ı Seviyor",
+      "description1": "Test edilmiş ses frekansları kullanarak hızlı, güvenli ve etkili hoparlör temizliği—hasar riski yok. Teknik beceri gerektirmeyen basit ve sezgisel tasarım.",
+      "description2": "Tek uygulamada profesyonel seviye ses test özellikleri ile tümü bir arada ses aracı.",
       "stats": {
         "rating": {
           "value": "5.0",
-          "label": "App Store Rating"
+          "label": "App Store Puanı"
         },
         "price": {
-          "value": "Free",
-          "label": "Base App"
+          "value": "Ücretsiz",
+          "label": "Temel Uygulama"
         }
       }
     },
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "Sık Sorulan Sorular",
       "questions": [
         {
-          "question": "Will this damage my speakers?",
-          "answer": "No, the sound waves are safe and won't damage your speakers. It's basically the same as playing music on your phone, but with carefully calibrated frequencies designed specifically for water ejection."
+          "question": "Bu hoparlörlerime zarar verir mi?",
+          "answer": "Hayır, ses dalgaları güvenlidir ve hoparlörlerinize zarar vermez. Temel olarak telefonunuzda müzik çalmakla aynıdır, ancak su çıkarma için özel olarak tasarlanmış dikkatle kalibre edilmiş frekanslarla."
         },
         {
-          "question": "Does this work on all devices?",
-          "answer": "Clear Wave works on iPhone and iPad devices. The app is optimized for iOS and provides the best results on Apple hardware. It requires iOS 15.1 or later."
+          "question": "Bu tüm cihazlarda çalışır mı?",
+          "answer": "Clear Wave iPhone ve iPad cihazlarında çalışır. Uygulama iOS için optimize edilmiştir ve Apple donanımında en iyi sonuçları verir. iOS 15.1 veya daha yenisini gerektirir."
         },
         {
-          "question": "How long should I play the sound to remove water?",
-          "answer": "Usually 10-30 seconds is enough, but you can repeat the process if needed. You can test your speaker volume after each cycle to check if the sound has improved."
+          "question": "Suyu çıkarmak için sesi ne kadar süre çalmalıyım?",
+          "answer": "Genellikle 10-30 saniye yeterlidir, ancak gerekirse işlemi tekrarlayabilirsiniz. Her döngüden sonra hoparlör sesinizi test ederek sesin iyileşip iyileşmediğini kontrol edebilirsiniz."
         },
         {
-          "question": "What if the water ejection doesn't work?",
-          "answer": "If water ejection doesn't work immediately, try repeating the process 2-3 times. For stubborn water, you can also try the frequency tone generator at different frequencies. If the problem persists, it might indicate hardware damage that requires professional repair."
+          "question": "Su çıkarma işe yaramazsa ne olur?",
+          "answer": "Su çıkarma hemen işe yaramazsa, işlemi 2-3 kez tekrarlamayı deneyin. İnatçı su için farklı frekanslarda frekans ton üretecini de deneyebilirsiniz. Sorun devam ederse, profesyonel onarım gerektiren donanım hasarına işaret edebilir."
         },
         {
-          "question": "Is the app free to use?",
-          "answer": "Clear Wave is free to download with basic water ejection features. Premium features like the advanced tone generator are available through in-app purchases for power users."
+          "question": "Uygulama ücretsiz mi?",
+          "answer": "Clear Wave temel su çıkarma özellikleri ile ücretsiz indirilebilir. Gelişmiş ton üreteci gibi premium özellikler, güçlü kullanıcılar için uygulama içi satın alımlarla mevcuttur."
         },
         {
-          "question": "Can I use this for other audio testing?",
-          "answer": "Yes! Clear Wave includes professional audio tools for testing hearing, tuning audio gear, monitoring noise levels, and checking stereo channel balance - making it an all-in-one audio toolkit."
+          "question": "Bunu diğer ses testleri için kullanabilir miyim?",
+          "answer": "Evet! Clear Wave, işitmeyi test etmek, ses ekipmanını ayarlamak, gürültü seviyelerini izlemek ve stereo kanal dengesini kontrol etmek için profesyonel ses araçları içerir - bu da onu tümü bir arada ses araç seti yapar."
         }
       ]
     },
     "download": {
-      "title": "Get Clear Wave Today",
-      "description": "Don't let water or debris ruin your sound. Download Clear Wave - Blower now and enjoy rich, clear audio every time.",
-      "download_alt": "Download on App Store",
-      "download_aria_label": "Download Clear Wave - Blower on App Store"
+      "title": "Clear Wave'ı Bugün İndirin",
+      "description": "Su veya enkaz sesinizi mahvetmesin. Clear Wave - Üfleyici'yi şimdi indirin ve her seferinde zengin, net sesin keyfini çıkarın.",
+      "download_alt": "App Store'dan İndir",
+      "download_aria_label": "App Store'dan Clear Wave - Üfleyici'yi İndir"
     },
     "footer": {
-      "copyright": "© 2025 c-basso. All rights reserved.",
+      "copyright": "© 2025 c-basso. Tüm hakları saklıdır.",
       "links": {
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Use",
+        "privacy": "Gizlilik Politikası",
+        "terms": "Kullanım Şartları",
         "app_store": "App Store"
       }
     }
