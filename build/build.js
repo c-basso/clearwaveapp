@@ -45,7 +45,7 @@ const languages = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'tr'];
             // Write the result to en.html
             fs.writeFileSync(outputPath, result, 'utf8');
             
-            console.log('✅ Successfully built en.html from template and en.json');
+            console.log(`✅ Successfully built ${lang}.html from template and ${lang}.json`);
             console.log(`📁 Output saved to: ${outputPath}`);
             
         } catch (error) {
