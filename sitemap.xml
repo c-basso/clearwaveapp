@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://clearwaveapp.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr" />
     <priority>1.0</priority>
   </url>
-</urlset> 
+
+</urlset>
