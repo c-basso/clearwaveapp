@@ -1,7 +1,7 @@
 {
   "name": "clearwaveapp",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "openai": "^5.10.1"
