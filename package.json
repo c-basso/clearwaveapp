@@ -1,7 +1,8 @@
 {
   "name": "clearwaveapp",
   "scripts": {
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "start": "npx http-server"
   },
   "dependencies": {
     "openai": "^5.10.1"
