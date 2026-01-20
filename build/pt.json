@@ -8,11 +8,13 @@
       "keywords": "limpador de alto-falantes, ejetar água, alto-falante iPhone, ferramenta de áudio, ondas sonoras, manutenção de alto-falantes, dano por água, alto-falante do telefone, app iOS, app gratuito",
       "author": "Vladimir Ivakhnenko",
       "og_title": "Clear Wave - Soprador | Remova Água dos Alto-falantes do iPhone",
-      "og_description": "App gratuito para remover água e poeira dos alto-falantes do iPhone usando ondas sonoras. Inclui ejeção de água, gerador de tons, medidor de decibéis e teste estéreo.",
+      "og_description": "App gratuito que remove água e poeira dos alto-falantes do iPhone com ondas sonoras seguras, com ejeção de água, gerador de tons e teste estéreo rápido.",
       "og_site_name": "Clear Wave - Soprador",
       "twitter_title": "Clear Wave - Soprador | Remova Água dos Alto-falantes do iPhone",
       "twitter_description": "App gratuito para remover água e poeira dos alto-falantes do iPhone usando ondas sonoras. Baixe agora!",
-      "apple_mobile_web_app_title": "Clear Wave"
+      "apple_mobile_web_app_title": "Clear Wave",
+      "og_locale": "pt_PT",
+      "og_logo": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Soprador",

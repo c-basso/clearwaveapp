@@ -8,11 +8,13 @@
       "keywords": "hoparlör temizleyici, su çıkarma, iPhone hoparlör, ses aracı, ses dalgaları, hoparlör bakımı, su hasarı, telefon hoparlörü, iOS uygulaması, ücretsiz uygulama",
       "author": "Vladimir Ivakhnenko",
       "og_title": "Clear Wave - Üfleyici | iPhone Hoparlörlerinden Suyu Çıkarın",
-      "og_description": "Ses dalgaları kullanarak iPhone hoparlörlerinden su ve tozu çıkarmak için ücretsiz uygulama. Su çıkarma, ton üreteci, desibel ölçer ve stereo test içerir.",
+      "og_description": "iPhone hoparlörlerinden su ve tozu güvenli ses dalgalarıyla çıkaran ücretsiz uygulama; su çıkarma modu, ton üreteci ve hızlı stereo test içerir.",
       "og_site_name": "Clear Wave - Üfleyici",
       "twitter_title": "Clear Wave - Üfleyici | iPhone Hoparlörlerinden Suyu Çıkarın",
       "twitter_description": "Ses dalgaları kullanarak iPhone hoparlörlerinden su ve tozu çıkarmak için ücretsiz uygulama. Şimdi indirin!",
-      "apple_mobile_web_app_title": "Clear Wave"
+      "apple_mobile_web_app_title": "Clear Wave",
+      "og_locale": "tr_TR",
+      "og_logo": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Üfleyici",

@@ -8,11 +8,13 @@
       "keywords": "nettoyeur de haut-parleurs, éjection d'eau, haut-parleur iPhone, outil audio, ondes sonores, maintenance des haut-parleurs, dégâts d'eau, haut-parleur de téléphone, application iOS, application gratuite",
       "author": "Vladimir Ivakhnenko",
       "og_title": "Clear Wave - Souffleur | Retirez l'eau des haut-parleurs iPhone",
-      "og_description": "Application gratuite pour retirer l'eau et la poussière des haut-parleurs iPhone en utilisant des ondes sonores. Inclut l'éjection d'eau, le générateur de tons, le mètre de décibels et le test stéréo.",
+      "og_description": "Application gratuite pour retirer l'eau et la poussière des haut-parleurs iPhone avec ondes sonores. Inclut éjection d'eau, générateur de tons et test stéréo.",
       "og_site_name": "Clear Wave - Souffleur",
       "twitter_title": "Clear Wave - Souffleur | Retirez l'eau des haut-parleurs iPhone",
       "twitter_description": "Application gratuite pour retirer l'eau et la poussière des haut-parleurs iPhone en utilisant des ondes sonores. Téléchargez maintenant !",
-      "apple_mobile_web_app_title": "Clear Wave"
+      "apple_mobile_web_app_title": "Clear Wave",
+      "og_locale": "fr_FR",
+      "og_logo": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Souffleur",

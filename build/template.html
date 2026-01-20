@@ -30,6 +30,8 @@ gtag('config', 'G-G4CQ97HTGF');
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="{{meta.og_site_name}}">
+    <meta property="og:locale" content="{{meta.og_locale}}">
+    <meta property="og:logo" content="{{meta.og_logo}}">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -102,8 +104,23 @@ gtag('config', 'G-G4CQ97HTGF');
         "dateModified": "2025-01-01"
     }
     </script>
+    <script type="application/ld+json">
+    {{seo.structured_data.organization|json}}
+    </script>
+    <script type="application/ld+json">
+    {{seo.structured_data.website|json}}
+    </script>
+    <script type="application/ld+json">
+    {{seo.structured_data.howto|json}}
+    </script>
+    <script type="application/ld+json">
+    {{seo.structured_data.faqpage|json}}
+    </script>
+    <script type="application/ld+json">
+    {{seo.structured_data.breadcrumb_list|json}}
+    </script>
     
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css?v={{meta.version}}">
 </head>
 <body>
 

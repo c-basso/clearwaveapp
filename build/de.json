@@ -8,11 +8,13 @@
       "keywords": "Lautsprecherreiniger, Wasser ausstoßen, iPhone Lautsprecher, Audio-Tool, Schallwellen, Lautsprecherwartung, Wasserschaden, Telefonlautsprecher, iOS App, kostenlose App",
       "author": "Vladimir Ivakhnenko",
       "og_title": "Clear Wave - Gebläse | Wasser aus iPhone-Lautsprechern entfernen",
-      "og_description": "Kostenlose App zum Entfernen von Wasser und Staub aus iPhone-Lautsprechern mit Schallwellen. Enthält Wasserausstoßung, Tongenerator, Dezibel-Messer und Stereo-Test.",
+      "og_description": "Kostenlose App, die mit Schallwellen Wasser und Staub aus iPhone-Lautsprechern entfernt, mit Wasserausstoßung, Tongenerator und schnellem Stereo-Test.",
       "og_site_name": "Clear Wave - Gebläse",
       "twitter_title": "Clear Wave - Gebläse | Wasser aus iPhone-Lautsprechern entfernen",
       "twitter_description": "Kostenlose App zum Entfernen von Wasser und Staub aus iPhone-Lautsprechern mit Schallwellen. Jetzt herunterladen!",
-      "apple_mobile_web_app_title": "Clear Wave"
+      "apple_mobile_web_app_title": "Clear Wave",
+      "og_locale": "de_DE",
+      "og_logo": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Gebläse",

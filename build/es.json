@@ -8,11 +8,13 @@
       "keywords": "limpiador de altavoces, expulsar agua, altavoces iPhone, herramienta de audio, ondas sonoras, mantenimiento de altavoces, daño por agua, altavoces del teléfono, aplicación iOS, aplicación gratuita",
       "author": "Vladimir Ivakhnenko",
       "og_title": "Clear Wave - Soplador | Elimina Agua de los Altavoces del iPhone",
-      "og_description": "Aplicación gratuita para eliminar agua y polvo de los altavoces del iPhone usando ondas sonoras. Incluye expulsión de agua, generador de tonos, medidor de decibelios y prueba estéreo.",
+      "og_description": "App gratuita que usa ondas sonoras para expulsar agua y polvo de los altavoces del iPhone, con modo de agua, generador de tonos y prueba estéreo.",
       "og_site_name": "Clear Wave - Soplador",
       "twitter_title": "Clear Wave - Soplador | Elimina Agua de los Altavoces del iPhone",
       "twitter_description": "Aplicación gratuita para eliminar agua y polvo de los altavoces del iPhone usando ondas sonoras. ¡Descarga ahora!",
-      "apple_mobile_web_app_title": "Clear Wave"
+      "apple_mobile_web_app_title": "Clear Wave",
+      "og_locale": "es_ES",
+      "og_logo": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Soplador",
