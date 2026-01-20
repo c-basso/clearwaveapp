@@ -14,7 +14,13 @@
       "twitter_description": "Application gratuite pour retirer l'eau et la poussière des haut-parleurs iPhone en utilisant des ondes sonores. Téléchargez maintenant !",
       "apple_mobile_web_app_title": "Clear Wave",
       "og_locale": "fr_FR",
-      "og_logo": "https://clearwaveapp.com/logo.webp"
+      "og_logo": "https://clearwaveapp.com/logo.webp",
+      "og_url": "https://clearwaveapp.com/fr/",
+      "og_image": "https://clearwaveapp.com/logo.webp",
+      "og_image_width": "1200",
+      "og_image_height": "630",
+      "twitter_url": "https://clearwaveapp.com/fr/",
+      "twitter_image": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Souffleur",

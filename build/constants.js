@@ -1,4 +1,5 @@
-const SITE_URL = "https://clearwaveapp.com/";
+const SITE_URL = 'https://clearwaveapp.com/';
+const LOCAL_URL = 'http://127.0.0.1:8080/';
 const DEFAULT_LANGUAGE = 'en';
 
 const LANGUAGES = [
@@ -14,7 +15,8 @@ const LANGUAGES = [
 
 const URLS = LANGUAGES.map((lang) => ({
     lang,
-    url: lang === DEFAULT_LANGUAGE ? SITE_URL : `${SITE_URL}${lang}/`
+    local: lang === DEFAULT_LANGUAGE ? LOCAL_URL : `${LOCAL_URL}${lang}/`,
+    url: lang === DEFAULT_LANGUAGE ? SITE_URL : `${SITE_URL}${lang}/`,
 }));
 
 // Expected JSON-LD types that should be present on each generated page.

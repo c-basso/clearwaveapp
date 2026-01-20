@@ -23,22 +23,22 @@ gtag('config', 'G-G4CQ97HTGF');
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://clearwaveapp.com/">
+    <meta property="og:url" content="{{meta.og_url}}">
     <meta property="og:title" content="{{meta.og_title}}">
     <meta property="og:description" content="{{meta.og_description}}">
-    <meta property="og:image" content="https://clearwaveapp.com/logo.webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image" content="{{meta.og_image}}">
+    <meta property="og:image:width" content="{{meta.og_image_width}}">
+    <meta property="og:image:height" content="{{meta.og_image_height}}">
     <meta property="og:site_name" content="{{meta.og_site_name}}">
     <meta property="og:locale" content="{{meta.og_locale}}">
     <meta property="og:logo" content="{{meta.og_logo}}">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://clearwaveapp.com/">
+    <meta property="twitter:url" content="{{meta.twitter_url}}">
     <meta property="twitter:title" content="{{meta.twitter_title}}">
     <meta property="twitter:description" content="{{meta.twitter_description}}">
-    <meta property="twitter:image" content="https://clearwaveapp.com/logo.webp">
+    <meta property="twitter:image" content="{{meta.twitter_image}}">
     
     <!-- App Store Meta Tags -->
     <meta name="apple-itunes-app" content="app-id=6742754087">
@@ -49,17 +49,12 @@ gtag('config', 'G-G4CQ97HTGF');
     <!-- Canonical URL -->
     <link rel="canonical" href="{{meta.altenate_url}}">
 
-    <link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de/" />
-    <link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
-    <link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
-    <link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
-    <link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
-    <link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
-    <link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
-    <link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
-    <link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
+    <!-- Alternate Language Links -->
+    {{#each meta.alternate_languages as |lang|}}
+    <link rel="alternate" hreflang="{{lang.lang}}" href="{{lang.url}}" />
+    {{/each}}
+    <link rel="alternate" hreflang="x-default" href="{{meta.alternate_default}}" />
 
-    
     <!-- Favicons and Icons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

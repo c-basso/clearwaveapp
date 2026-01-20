@@ -14,7 +14,13 @@
       "twitter_description": "App gratuito para remover água e poeira dos alto-falantes do iPhone usando ondas sonoras. Baixe agora!",
       "apple_mobile_web_app_title": "Clear Wave",
       "og_locale": "pt_PT",
-      "og_logo": "https://clearwaveapp.com/logo.webp"
+      "og_logo": "https://clearwaveapp.com/logo.webp",
+      "og_url": "https://clearwaveapp.com/pt/",
+      "og_image": "https://clearwaveapp.com/logo.webp",
+      "og_image_width": "1200",
+      "og_image_height": "630",
+      "twitter_url": "https://clearwaveapp.com/pt/",
+      "twitter_image": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Soprador",

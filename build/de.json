@@ -14,7 +14,13 @@
       "twitter_description": "Kostenlose App zum Entfernen von Wasser und Staub aus iPhone-Lautsprechern mit Schallwellen. Jetzt herunterladen!",
       "apple_mobile_web_app_title": "Clear Wave",
       "og_locale": "de_DE",
-      "og_logo": "https://clearwaveapp.com/logo.webp"
+      "og_logo": "https://clearwaveapp.com/logo.webp",
+      "og_url": "https://clearwaveapp.com/de/",
+      "og_image": "https://clearwaveapp.com/logo.webp",
+      "og_image_width": "1200",
+      "og_image_height": "630",
+      "twitter_url": "https://clearwaveapp.com/de/",
+      "twitter_image": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Gebläse",

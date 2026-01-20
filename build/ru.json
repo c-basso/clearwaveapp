@@ -14,7 +14,13 @@
       "twitter_description": "Узнайте, как быстро и безопасно очистить динамики iPhone от воды с Clear Wave. Бесплатное приложение для удаления воды из динамиков!",
       "apple_mobile_web_app_title": "Clear Wave",
       "og_locale": "ru_RU",
-      "og_logo": "https://clearwaveapp.com/logo.webp"
+      "og_logo": "https://clearwaveapp.com/logo.webp",
+      "og_url": "https://clearwaveapp.com/ru/",
+      "og_image": "https://clearwaveapp.com/logo.webp",
+      "og_image_width": "1200",
+      "og_image_height": "630",
+      "twitter_url": "https://clearwaveapp.com/ru/",
+      "twitter_image": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Как убрать воду из динамика айфона - Clear Wave",

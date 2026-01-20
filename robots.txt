@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://clearwaveapp.com/sitemap.xml 
+Sitemap: https://clearwaveapp.com/sitemap.xml

@@ -14,7 +14,13 @@
       "twitter_description": "Aplicación gratuita para eliminar agua y polvo de los altavoces del iPhone usando ondas sonoras. ¡Descarga ahora!",
       "apple_mobile_web_app_title": "Clear Wave",
       "og_locale": "es_ES",
-      "og_logo": "https://clearwaveapp.com/logo.webp"
+      "og_logo": "https://clearwaveapp.com/logo.webp",
+      "og_url": "https://clearwaveapp.com/es/",
+      "og_image": "https://clearwaveapp.com/logo.webp",
+      "og_image_width": "1200",
+      "og_image_height": "630",
+      "twitter_url": "https://clearwaveapp.com/es/",
+      "twitter_image": "https://clearwaveapp.com/logo.webp"
     },
     "hero": {
       "title": "Clear Wave - Soplador",
