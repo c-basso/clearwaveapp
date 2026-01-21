@@ -134,7 +134,7 @@ function optimizeImage(imagePath) {
             screenshotPath,
             width: 1200,
             height: 630,
-            url: item.url
+            url: item.local
         });
 
         console.log(`\nOptimizing image: ${screenshotPath}`);
