@@ -120,29 +120,25 @@ const {
                 }
             }
 
-            // FAQPage: build from seo.faq (strip HTML) or create an empty FAQPage if none defined
-            if (Array.isArray(data.seo.faq)) {
-                data.seo.structured_data.faqpage = {
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": data.seo.faq.map((f) => ({
-                        "@type": "Question",
-                        "name": stripHtml(f?.question),
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": stripHtml(f?.answer)
-                        }
-                    }))
-                };
-            } else if (!data.seo.structured_data.faqpage) {
-                data.seo.structured_data.faqpage = {
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": []
-                };
-            }
+            // FAQPage: build from seo.faq, or from faq.questions (strip HTML), or empty array
+            const faqItems = Array.isArray(data.seo.faq)
+                ? data.seo.faq
+                : (Array.isArray(data.faq?.questions) ? data.faq.questions : []);
+            data.seo.structured_data.faqpage = {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": faqItems.map((f) => ({
+                    "@type": "Question",
+                    "name": stripHtml(f?.question),
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": stripHtml(f?.answer)
+                    }
+                }))
+            };
 
-            // BreadcrumbList: use translated label + canonical
+            // BreadcrumbList: use translated label + canonical (name required for valid schema)
+            const breadcrumbName = data.seo?.breadcrumb_home || data.meta?.og_site_name || data.meta?.title || 'Home';
             data.seo.structured_data.breadcrumb_list = {
                 "@context": "https://schema.org",
                 "@type": "BreadcrumbList",
@@ -150,7 +146,7 @@ const {
                     {
                         "@type": "ListItem",
                         "position": 1,
-                        "name": data.seo.breadcrumb_home,
+                        "name": breadcrumbName,
                         "item": data.meta?.canonical
                     }
                 ]
