@@ -73,7 +73,7 @@ gtag('config', 'G-G4CQ97HTGF');
         "@type": "MobileApplication",
         "name": "{{meta.og_site_name}}",
         "description": "{{meta.og_description}}",
-        "url": "https://clearwaveapp.com/",
+        "url": "{{meta.canonical}}",
         "applicationCategory": "MusicApplication",
         "operatingSystem": "iOS",
         "operatingSystemVersion": "15.1",
@@ -98,7 +98,7 @@ gtag('config', 'G-G4CQ97HTGF');
         "screenshot": "https://clearwaveapp.com/logo.webp",
         "softwareVersion": "1.1.0",
         "datePublished": "2025-01-01",
-        "dateModified": "2025-01-01"
+        "dateModified": "{{meta.last_updated}}"
     }
     </script>
     <script type="application/ld+json">
@@ -142,6 +142,7 @@ gtag('config', 'G-G4CQ97HTGF');
                 </a>
                 <h1 class="fade-in-up">{{hero.title}}</h1>
                 <p class="fade-in-up">{{hero.subtitle}}</p>
+                <p class="fade-in-up"><strong>{{meta.og_site_name}}</strong> is an iOS speaker-fix app for iPhone and iPad that uses calibrated audio frequencies to eject water and verify speaker health.</p>
                 <a href="https://apps.apple.com/app/id6742754087" class="cta-button fade-in-up desktop-qr" aria-label="{{hero.download_aria_label}}" rel="nofollow">
                     <img src="/qr.png" alt="{{hero.qr_alt}}" class="qr-code">
                     <span class="qr-text">{{hero.qr_text}}</span>
@@ -205,6 +206,22 @@ gtag('config', 'G-G4CQ97HTGF');
         </div>
     </section>
 
+    <!-- By The Numbers Section -->
+    <section class="app-info" id="by-the-numbers">
+        <div class="container">
+            <div class="app-info-content">
+                <div>
+                    <h2 class="section-title">Clear Wave by the Numbers</h2>
+                    <ul>
+                        {{#each geo.by_numbers as |item|}}
+                        <li>{{item}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="faq" id="faq">
         <div class="container">
@@ -235,6 +252,7 @@ gtag('config', 'G-G4CQ97HTGF');
                     <p>{{faq.questions.5.answer}}</p>
                 </div>
             </div>
+            <p>Last updated: {{meta.last_updated}}</p>
         </div>
     </section>
 

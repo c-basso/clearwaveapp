@@ -37,10 +37,13 @@ const { readImageDimensions } = require('./lib/imageDimensions');
             
             // Add build timestamp for cache busting
             const buildTimestamp = Date.now();
+            const now = new Date();
+            const lastUpdatedIso = now.toISOString().split('T')[0];
             if (!data.meta) {
                 data.meta = {};
             }
             data.meta.version = buildTimestamp;
+            data.meta.last_updated = lastUpdatedIso;
             // Ensure canonical URL is always available for JSON-LD
             if (!data.meta.canonical) {
                 data.meta.canonical = data.meta.altenate_url || SITE_URL;
@@ -75,6 +78,18 @@ const { readImageDimensions } = require('./lib/imageDimensions');
 
             if (!data.seo) data.seo = {};
             if (!data.seo.structured_data) data.seo.structured_data = {};
+            if (!data.geo) data.geo = {};
+
+            // GEO facts block: keep this machine-parseable and quotable across locales.
+            if (!Array.isArray(data.geo.by_numbers) || data.geo.by_numbers.length === 0) {
+                data.geo.by_numbers = [
+                    `${data.app_info?.stats?.rating?.value || '5.0'} ${data.app_info?.stats?.rating?.label || 'rating'}`,
+                    `iOS 15.1+`,
+                    `4 core audio tools`,
+                    `10-30 second cleanup cycles`,
+                    `${data.app_info?.stats?.price?.value || 'Free'} ${data.app_info?.stats?.price?.label || 'base app'}`
+                ];
+            }
 
             // Organization: basic publisher info
             if (!data.seo.structured_data.organization) {
@@ -83,7 +98,12 @@ const { readImageDimensions } = require('./lib/imageDimensions');
                     "@type": "Organization",
                     "name": data.meta?.og_site_name || data.meta?.title,
                     "url": data.meta?.canonical || SITE_URL,
-                    "logo": "https://clearwaveapp.com/logo.webp"
+                    "logo": "https://clearwaveapp.com/logo.webp",
+                    "description": data.meta?.description,
+                    "foundingDate": "2025",
+                    "sameAs": [
+                        "https://apps.apple.com/app/id6742754087"
+                    ]
                 };
             }
 
@@ -91,6 +111,7 @@ const { readImageDimensions } = require('./lib/imageDimensions');
             if (data.seo.structured_data.software_application && typeof data.seo.structured_data.software_application === 'object') {
                 data.seo.structured_data.software_application.url = data.meta?.canonical;
                 data.seo.structured_data.software_application.downloadUrl = data.header?.download_url;
+                data.seo.structured_data.software_application.dateModified = data.meta?.last_updated;
             }
 
             // WebSite: keep translation content, but ensure url matches canonical
@@ -99,10 +120,12 @@ const { readImageDimensions } = require('./lib/imageDimensions');
                     "@context": "https://schema.org",
                     "@type": "WebSite",
                     "name": data.meta?.og_site_name || data.meta?.title,
-                    "url": data.meta?.canonical || SITE_URL
+                    "url": data.meta?.canonical || SITE_URL,
+                    "dateModified": data.meta?.last_updated
                 };
             } else if (typeof data.seo.structured_data.website === 'object') {
                 data.seo.structured_data.website.url = data.meta?.canonical;
+                data.seo.structured_data.website.dateModified = data.meta?.last_updated;
             }
 
             // HowTo: ensure object exists, then build steps from how_it_works.steps (strip HTML)

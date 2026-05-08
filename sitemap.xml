@@ -5,6 +5,8 @@
   
   <url>
     <loc>https://clearwaveapp.com/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
@@ -12,7 +14,113 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
     <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
     <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/ru/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/es/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/fr/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/de/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/it/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/pt/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/tr/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clearwaveapp.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clearwaveapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clearwaveapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clearwaveapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://clearwaveapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clearwaveapp.com/" />
+    <priority>0.8</priority>
   </url>
 
 </urlset>

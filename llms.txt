@@ -1,0 +1,27 @@
+# Clear Wave
+
+> Clear Wave is an iOS app that helps users restore muffled iPhone and iPad speakers using calibrated sound-wave water ejection and speaker test tools.
+
+## Main Sections
+
+- [Home](/): Product overview, features, and FAQ
+- [English](/): Primary landing page
+- [Russian](/ru/): Russian landing page
+- [Spanish](/es/): Spanish landing page
+- [French](/fr/): French landing page
+- [German](/de/): German landing page
+- [Italian](/it/): Italian landing page
+- [Portuguese](/pt/): Portuguese landing page
+- [Turkish](/tr/): Turkish landing page
+
+## Key Facts
+
+- Product type: iOS utility app for speaker cleanup and diagnostics
+- Supported devices: iPhone and iPad
+- Minimum OS: iOS 15.1
+- Core tools: Water ejection, tone generator, decibel meter, stereo test
+- App Store: https://apps.apple.com/app/id6742754087
+
+## Contact
+
+- Website: https://clearwaveapp.com
