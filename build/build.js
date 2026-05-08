@@ -7,8 +7,9 @@ const {
     DEFAULT_LANGUAGE,
     LANGUAGES
 } = require('./constants');
+const { readImageDimensions } = require('./lib/imageDimensions');
 
-(function() {
+(async function() {
     const urlsPath = path.join(__dirname, '..', 'urls.txt');
 
     fs.writeFileSync(urlsPath, URLS.map(({url}) => url).join('\n'), 'utf8');
@@ -49,6 +50,13 @@ const {
 
             data.meta.og_image = previewPath;
             data.meta.twitter_image = previewPath;
+            const previewRelativePath = previewPath.replace(SITE_URL, '');
+            const previewAbsolutePath = path.join(__dirname, '..', previewRelativePath);
+            const { width: previewWidth, height: previewHeight } = await readImageDimensions(previewAbsolutePath);
+            data.meta.og_image_width = String(previewWidth);
+            data.meta.og_image_height = String(previewHeight);
+            data.meta.twitter_image_width = String(previewWidth);
+            data.meta.twitter_image_height = String(previewHeight);
             
             // Replace {year} placeholder in footer.copyright with current year
             const currentYear = new Date().getFullYear();
