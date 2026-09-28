@@ -14,10 +14,10 @@ const { SITE_URL, URLS } = require('./constants');
   lines.push('  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"');
   lines.push('  xmlns:xhtml="http://www.w3.org/1999/xhtml">');
   lines.push('  ');
-  // English pages (homepage, guides, FAQ) from build/site.js
-  const { pageList } = require('./site');
+  // Guides + FAQ pages for every locale built by build/site.js (homepages are emitted below with hreflang alternates)
+  const { pageList, SITE_LANGS } = require('./site');
   for (const { path: p, priority } of pageList()) {
-    if (p === '/') continue; // homepage is emitted below with hreflang alternates
+    if (SITE_LANGS.some((l) => p === (l === 'en' ? '/' : `/${l}/`))) continue;
     lines.push('  <url>');
     lines.push(`    <loc>${SITE_URL}${p.replace(/^\//, '')}</loc>`);
     lines.push(`    <lastmod>${lastModified}</lastmod>`);

@@ -19,6 +19,8 @@
     --display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
     --body: 'Instrument Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
 }
+html[lang="ru"] { --display: 'Manrope', ui-sans-serif, system-ui, sans-serif; --body: 'Golos Text', ui-sans-serif, system-ui, -apple-system, sans-serif; }
+html[lang="ru"] h1, html[lang="ru"] h2 { letter-spacing: -.025em; overflow-wrap: break-word; }
 *, *::before, *::after { box-sizing: border-box; }
 section[id] { scroll-margin-top: 64px; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
@@ -119,12 +121,12 @@ p { margin: 0 0 1em; }
 .review .stars { color: #f5a300; letter-spacing: 2px; }
 .review blockquote { margin: 6px 0; font-weight: 500; }
 .review figcaption { font-size: .88rem; color: #184a66; }
-.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 0; }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 0; }
 .facts div { background: var(--night); color: var(--white); border-radius: var(--radius); padding: 22px; transform: rotate(var(--r, 0deg)); }
 .facts div:nth-child(1) { --r: -1.5deg; } .facts div:nth-child(4) { --r: 1.5deg; }
-.facts dt { font-family: var(--display); font-weight: 800; font-size: 2.2rem; line-height: 1; color: var(--aqua); }
+.facts dt { font-family: var(--display); font-weight: 800; font-size: clamp(1.5rem, 7vw, 2.2rem); line-height: 1; color: var(--aqua); }
 .facts dd { margin: 8px 0 0; color: rgba(255,255,255,.8); font-size: .95rem; }
-@media (max-width: 800px) { .download__grid { grid-template-columns: 1fr; } }
+@media (max-width: 800px) { .download__grid { grid-template-columns: minmax(0, 1fr); } }
 
 /* ---------- Screenshots ---------- */
 .screens { padding: 90px 0 70px; }

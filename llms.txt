@@ -34,6 +34,10 @@
 
 - [All questions](https://clearwaveapp.com/faq/)
 
+## Russian (полная версия)
+
+- [Главная](https://clearwaveapp.com/ru/) · [Инструкции](https://clearwaveapp.com/ru/guides/) · [Вопросы](https://clearwaveapp.com/ru/faq/)
+
 ## Languages
 
 - English: https://clearwaveapp.com/ · Russian: /ru/ · Spanish: /es/ · French: /fr/ · German: /de/ · Italian: /it/ · Portuguese: /pt/ · Turkish: /tr/
