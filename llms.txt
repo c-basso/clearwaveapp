@@ -1,27 +1,39 @@
 # Clear Wave
 
-> Clear Wave is an iOS app that helps users restore muffled iPhone and iPad speakers using calibrated sound-wave water ejection and speaker test tools.
+> Clear Wave (App Store name: "Speaker Fix – Water Eject") is an iPhone and iPad app that ejects water and dust from speakers with tuned sound waves, then lets you verify the result with a stereo left/right test, a tone generator and a decibel meter.
 
-## Main Sections
+## Key facts
 
-- [Home](/): Product overview, features, and FAQ
-- [English](/): Primary landing page
-- [Russian](/ru/): Russian landing page
-- [Spanish](/es/): Spanish landing page
-- [French](/fr/): French landing page
-- [German](/de/): German landing page
-- [Italian](/it/): Italian landing page
-- [Portuguese](/pt/): Portuguese landing page
-- [Turkish](/tr/): Turkish landing page
+- Product type: iOS utility app — water eject / speaker cleaner and speaker diagnostics
+- App Store: https://apps.apple.com/app/id6742754087 (category: Music)
+- Developer: Vladimir Ivakhnenko
+- Devices: iPhone and iPad, requires iOS 17.1 or later
+- Price: free download; optional in-app subscription (free trial) unlocks all tools
+- Core tools: water eject / speaker cleaner, stereo test, tone generator, dB meter
+- Languages: English + 30 more
+- Privacy: App Store lists no data linked to the user's identity
 
-## Key Facts
+## Guides
 
-- Product type: iOS utility app for speaker cleanup and diagnostics
-- Supported devices: iPhone and iPad
-- Minimum OS: iOS 15.1
-- Core tools: Water ejection, tone generator, decibel meter, stereo test
-- App Store: https://apps.apple.com/app/id6742754087
+- [How to get water out of an iPhone speaker](https://clearwaveapp.com/guides/get-water-out-of-iphone-speaker/)
+- [Water eject app for iPhone](https://clearwaveapp.com/guides/water-eject-app-iphone/)
+- [Fix my speaker](https://clearwaveapp.com/guides/fix-my-speaker/)
+- [How to fix an iPhone speaker](https://clearwaveapp.com/guides/how-to-fix-iphone-speaker/)
+- [iPhone speaker muffled](https://clearwaveapp.com/guides/iphone-speaker-muffled/)
+- [iPhone speaker crackling](https://clearwaveapp.com/guides/iphone-speaker-crackling/)
+- [Water eject shortcut](https://clearwaveapp.com/guides/water-eject-shortcut/)
+- [165 Hz water eject sound](https://clearwaveapp.com/guides/165-hz-water-eject-sound/)
+- [How to fix a blown speaker](https://clearwaveapp.com/guides/how-to-fix-blown-speaker/)
+- [How to clean an iPhone speaker](https://clearwaveapp.com/guides/clean-iphone-speaker-dust/)
+- [iPhone dropped in water](https://clearwaveapp.com/guides/iphone-dropped-in-water/)
+- [Left/right speaker test](https://clearwaveapp.com/guides/left-right-speaker-test/)
+- [Decibel meter app for iPhone](https://clearwaveapp.com/guides/decibel-meter-app-iphone/)
+- [Tone generator app for iPhone](https://clearwaveapp.com/guides/tone-generator-app-iphone/)
 
-## Contact
+## FAQ
 
-- Website: https://clearwaveapp.com
+- [All questions](https://clearwaveapp.com/faq/)
+
+## Languages
+
+- English: https://clearwaveapp.com/ · Russian: /ru/ · Spanish: /es/ · French: /fr/ · German: /de/ · Italian: /it/ · Portuguese: /pt/ · Turkish: /tr/

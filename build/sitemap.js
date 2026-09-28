@@ -14,6 +14,18 @@ const { SITE_URL, URLS } = require('./constants');
   lines.push('  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"');
   lines.push('  xmlns:xhtml="http://www.w3.org/1999/xhtml">');
   lines.push('  ');
+  // English pages (homepage, guides, FAQ) from build/site.js
+  const { pageList } = require('./site');
+  for (const { path: p, priority } of pageList()) {
+    if (p === '/') continue; // homepage is emitted below with hreflang alternates
+    lines.push('  <url>');
+    lines.push(`    <loc>${SITE_URL}${p.replace(/^\//, '')}</loc>`);
+    lines.push(`    <lastmod>${lastModified}</lastmod>`);
+    lines.push(`    <priority>${priority}</priority>`);
+    lines.push('  </url>');
+    lines.push('');
+  }
+
   for (const { url } of URLS) {
     lines.push('  <url>');
     lines.push(`    <loc>${url}</loc>`);

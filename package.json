@@ -1,7 +1,7 @@
 {
   "name": "clearwaveapp",
   "scripts": {
-    "build": "node build/build.js",
+    "build": "node build/build.js && node build/site.js",
     "validate": "node build/validate/index.js",
     "sitemap": "node build/sitemap.js",
     "start": "npx http-server",

@@ -19,6 +19,8 @@ const { readImageDimensions } = require('./lib/imageDimensions');
 
 
     for (const lang of LANGUAGES) {
+        // English (homepage + /guides + /faq) is built by build/site.js from build/site/content.
+        if (lang === DEFAULT_LANGUAGE) continue;
         try {
             const htmlDir = path.join(__dirname, lang === DEFAULT_LANGUAGE ? '..' : `../${lang}/`);
             const previewPath = `${SITE_URL}${lang === DEFAULT_LANGUAGE ? '' : `${lang}/`}site_preview.png`;

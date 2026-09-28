@@ -4,8 +4,164 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://clearwaveapp.com/guides/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/get-water-out-of-iphone-speaker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/water-eject-app-iphone/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/fix-my-speaker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/how-to-fix-iphone-speaker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/iphone-speaker-muffled/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/iphone-speaker-crackling/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/water-eject-shortcut/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/165-hz-water-eject-sound/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/how-to-fix-blown-speaker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/clean-iphone-speaker-dust/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/iphone-dropped-in-water/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/left-right-speaker-test/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/decibel-meter-app-iphone/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/guides/tone-generator-app-iphone/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/does-water-eject-work/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/is-water-eject-safe/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/how-long-for-water-to-leave-iphone-speaker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/should-i-put-wet-iphone-in-rice/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/what-frequency-removes-water-from-speaker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/can-water-eject-fix-blown-speaker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/does-water-eject-work-on-airpods/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/does-iphone-have-built-in-water-eject/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/how-many-times-run-water-eject/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://clearwaveapp.com/faq/is-clear-wave-free/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://clearwaveapp.com/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
@@ -20,7 +176,7 @@
 
   <url>
     <loc>https://clearwaveapp.com/ru/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
@@ -35,7 +191,7 @@
 
   <url>
     <loc>https://clearwaveapp.com/es/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
@@ -50,7 +206,7 @@
 
   <url>
     <loc>https://clearwaveapp.com/fr/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
@@ -65,7 +221,7 @@
 
   <url>
     <loc>https://clearwaveapp.com/de/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
@@ -80,7 +236,7 @@
 
   <url>
     <loc>https://clearwaveapp.com/it/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
@@ -95,7 +251,7 @@
 
   <url>
     <loc>https://clearwaveapp.com/pt/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
@@ -110,7 +266,7 @@
 
   <url>
     <loc>https://clearwaveapp.com/tr/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://clearwaveapp.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://clearwaveapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://clearwaveapp.com/es/" />
