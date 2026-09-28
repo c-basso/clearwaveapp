@@ -125,6 +125,54 @@ const LOCALES = {
             guidesHub: { title: 'Инструкции: вода в динамике, глухой и хрипящий звук iPhone', description: 'Пошаговые инструкции: как убрать воду из динамика iPhone, исправить глухой или хрипящий звук, почистить сетку и проверить левый и правый динамик.', h1: 'Инструкции по ремонту звука', sub: 'Всё, что нужно, когда динамик iPhone звучит глухо, тихо или хрипит: сначала честный ручной способ, затем — в одно касание с Clear Wave.', listName: 'Инструкции Clear Wave' },
             faqHub: { title: 'Вопросы: вода в динамике iPhone и удаление воды звуком', description: 'Ответы про удаление воды из динамика iPhone: работает ли, безопасно ли, сколько сохнет, рис, 165 Гц, AirPods, сгоревший динамик и цена.', h1: 'Вопросы об удалении воды', sub: 'Короткие честные ответы — подробное объяснение в один клик.' }
         }
+    },
+    es: {
+        lang: 'es',
+        base: '/es/',
+        ogLocale: 'es_ES',
+        fonts: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap',
+        shotDir: '/assets/appstore/es/',
+        ogImage: '/es/site_preview.png',
+        storeName: 'Limpiar bocina expulsar agua',
+        siteName: 'Clear Wave – expulsar agua de la bocina del iPhone',
+        shots: {
+            cover: { caption: 'App para sacar agua', alt: 'Clear Wave, app para sacar agua de la bocina del iPhone' },
+            clear: { caption: 'Quitar agua y limpiar altavoz', alt: 'Sesión de Clear Wave expulsando agua del altavoz del iPhone con ondas de sonido' },
+            test: { caption: 'Prueba de altavoces estéreo', alt: 'Prueba de altavoz izquierdo y derecho del iPhone en Clear Wave' },
+            tone: { caption: 'Generador de frecuencia', alt: 'Generador de tonos de Clear Wave reproduciendo 1028 Hz; desliza para cambiar la frecuencia' },
+            meter: { caption: 'Medidor de decibelios', alt: 'Medidor de decibeles de Clear Wave marcando 52,2 dB, conversación normal' }
+        },
+        t: {
+            skip: 'Ir al contenido', homeAria: 'Inicio de Clear Wave', navHow: 'Cómo funciona', navGuides: 'Guías', navFaq: 'Preguntas', getApp: 'Descargar', mainNav: 'Menú principal',
+            badgeAlt: 'Descargar en el App Store', storeAria: 'Descargar Limpiar bocina expulsar agua (Clear Wave) en el App Store',
+            iconAlt: 'Icono de Clear Wave, app para expulsar agua de la bocina',
+            stickySub: 'Expulsar agua · Gratis', stickyGet: 'Obtener',
+            footerAbout: 'Clear Wave (<em>«Limpiar bocina expulsar agua»</em> en el App Store) es una app para iPhone y iPad que expulsa agua y polvo de la bocina con ondas de sonido y te deja comprobar el resultado con prueba estéreo, generador de tonos y medidor de decibelios.',
+            footerGuides: 'Guías', footerQuestions: 'Preguntas', footerApp: 'App', footerDownload: 'Descargar en el App Store', privacy: 'Aviso de privacidad', terms: 'Términos de uso', languages: 'Idiomas',
+            legal: 'Sin relación con Apple Inc. iPhone y iPad son marcas de Apple Inc.',
+            appCardAria: 'Descarga la app Clear Wave', appCardEyebrow: 'Para iPhone y iPad',
+            appCardTitle: 'Hazlo con un toque en Clear Wave', appCardText: 'Ondas de sonido ajustadas empujan el agua y el polvo fuera de la bocina del iPhone. Luego comprueba el resultado con la prueba estéreo y el medidor de decibelios.',
+            appCardMeta: 'Gratis · iOS 17.1+ · 27,1 MB',
+            ctaHeading: '¿Bocina apagada? Recupera el sonido en un minuto.',
+            ctaText: 'Descarga Clear Wave, pon la bocina hacia abajo e inicia una sesión para expulsar agua. Es gratis en iPhone y iPad.',
+            qrAlt: 'Código QR para descargar Clear Wave en el App Store', qrScan: 'Escanéalo con la<br>cámara del iPhone',
+            appIdMeta: 'Clear Wave · Gratis en el App Store',
+            screensAria: 'Capturas de la app, desplázate en horizontal',
+            crumbHome: 'Inicio', crumbGuides: 'Guías', crumbFaq: 'Preguntas', crumbAria: 'Ruta de navegación',
+            guideEyebrow: 'Guía', byline: (d) => `Por Vladimir Ivakhnenko, desarrollador de Clear Wave · Actualizado <time datetime="${d}">${d.split('-').reverse().join('/')}</time>`,
+            quick: 'Respuesta rápida', short: 'Respuesta corta', toc: 'En esta página', tocCount: (n) => `${n} secciones`,
+            questions: 'Preguntas', moreAnswers: 'Más respuestas', sources: 'Fuentes', related: 'Guías relacionadas', readGuide: 'Leer guía',
+            fullGuide: 'Guía completa', relatedQuestions: 'Preguntas relacionadas', faqEyebrow: 'Preguntas sobre expulsar agua',
+            tryTitle: 'Pruébalo en tu iPhone', tryText: 'Clear Wave expulsa el agua con un toque y te deja comprobar el resultado con prueba estéreo, generador de tonos y medidor de decibelios.',
+            learnMore: 'Saber más', learnMoreAbout: 'sobre', updated: 'Última actualización',
+            sideMeta: 'Gratis · iPhone y iPad · iOS 17.1+',
+            reviewSource: 'Reseña en el App Store, julio de 2025', starsAria: '5 de 5 estrellas',
+            ogAlt: 'Clear Wave: expulsar agua de la bocina del iPhone',
+            schemaAppDesc: 'App para iPhone y iPad que expulsa agua y polvo de la bocina con ondas de sonido e incluye prueba estéreo, generador de tonos y medidor de decibelios.',
+            schemaSub: 'Limpiador de bocina / expulsar agua', howToTool: 'App Clear Wave (iPhone / iPad)',
+            guidesHub: { title: 'Guías: agua en la bocina, sonido apagado o distorsionado', description: 'Guías paso a paso para arreglar la bocina del iPhone: sacar el agua, sonido apagado o distorsionado, limpiar el polvo y probar el altavoz izquierdo y derecho.', h1: 'Guías para arreglar la bocina', sub: 'Todo lo que necesitas cuando la bocina del iPhone suena apagada, baja o distorsionada: primero el método manual honesto, luego la forma de un toque con Clear Wave.', listName: 'Guías de Clear Wave' },
+            faqHub: { title: 'Preguntas: agua en la bocina del iPhone y cómo expulsarla', description: 'Respuestas sobre expulsar agua del iPhone: si funciona, si es seguro, cuánto tarda en secarse, el arroz, 165 Hz, AirPods, bocina reventada y precio.', h1: 'Preguntas sobre expulsar agua', sub: 'Respuestas cortas y honestas, con la explicación completa a un clic.' }
+        }
     }
 };
 

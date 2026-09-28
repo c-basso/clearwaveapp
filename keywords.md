@@ -106,3 +106,33 @@ _Добавлено 2026-09-28._ Русские страницы — не пер
 
 ## Вопросы `/ru/faq/<slug>/`
 работает ли удаление воды звуком · безопасно ли · сколько сохнет динамик · класть ли айфон в рис · какая частота выгоняет воду · поможет ли при сгоревшем динамике · удаление воды из AirPods · есть ли в iPhone функция удаления воды · сколько раз запускать · бесплатно ли Clear Wave
+
+---
+
+# ES — palabras clave y mapa de páginas (`/es/`)
+
+_Añadido 2026-09-28._ Textos escritos para búsquedas en español (no traducción literal), en español neutro latinoamericano: el nombre de la app en el App Store es **«Limpiar bocina expulsar agua»** («Sonido claro tras mojarse»), y las capturas usan «altavoz», así que las páginas combinan **bocina** (México/LatAm) y **altavoz** (España). Capturas en `assets/appstore/es/` (localización es-MX del listado). Volúmenes: orientativos, verificar en Google Keyword Planner por país (MX, ES, AR, CO).
+
+## Inicio `/es/`
+expulsar agua del iPhone · sacar agua de la bocina del iPhone · sacar agua del altavoz del celular · limpiar bocina iPhone · app para expulsar agua
+
+## Guías `/es/guides/<slug>/`
+| Página | Búsqueda principal | Long tail |
+|---|---|---|
+| `como-sacar-agua-del-altavoz-iphone` | cómo sacar agua de la bocina del iPhone | le entró agua a la bocina, sacar agua del altavoz del celular |
+| `app-para-expulsar-agua-del-iphone` | app para expulsar agua del iPhone | aplicación para sacar agua del celular |
+| `arreglar-bocina-del-celular` | cómo arreglar la bocina del celular | bocina del celular suena bajito |
+| `no-suena-la-bocina-del-iphone` | no suena la bocina del iPhone | iPhone sin sonido, bocina baja |
+| `iphone-suena-apagado-despues-del-agua` | iPhone suena apagado después de mojarse | suena como bajo el agua |
+| `bocina-del-iphone-suena-rasposa` | la bocina del iPhone suena rasposa | altavoz distorsionado, cruje |
+| `atajo-water-eject-iphone` | atajo para expulsar agua del iPhone | water eject atajo no funciona |
+| `sonido-165-hz-para-sacar-agua` | sonido 165 Hz para sacar agua | frecuencia para sacar agua del celular |
+| `bocina-reventada-que-hacer` | cómo arreglar una bocina reventada | altavoz roto del celular |
+| `como-limpiar-bocina-iphone` | cómo limpiar la bocina del iPhone | limpiar altavoz de polvo |
+| `se-me-cayo-el-iphone-al-agua` | se me cayó el iPhone al agua qué hago | se detectó líquido en el conector, iPhone en arroz |
+| `prueba-altavoz-izquierdo-derecho` | prueba de altavoz izquierdo y derecho | test estéreo |
+| `medidor-de-decibeles-iphone` | medidor de decibeles para iPhone | sonómetro iPhone |
+| `generador-de-frecuencias-iphone` | generador de frecuencias para iPhone | generador de tonos |
+
+## Preguntas `/es/faq/<slug>/`
+funciona expulsar agua con sonido · es seguro · cuánto tarda en secarse la bocina · meter el iPhone en arroz · qué frecuencia saca el agua · bocina reventada · AirPods · el iPhone tiene función para expulsar agua · cuántas veces · Clear Wave es gratis

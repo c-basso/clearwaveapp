@@ -111,7 +111,7 @@ module.exports = [
     },
     sections: [
         { h2: 'Why low frequencies move water', html: '<p>At a fixed volume, lower frequencies require the speaker membrane to travel <em>further</em> on each cycle. High-pitched tones barely move it. A long stroke acts like a piston pushing air — and any water sitting in the mesh — out through the grille. Go too low, though (below roughly 100 Hz), and a phone-sized speaker can\'t reproduce the tone well, so the effect drops. That\'s why the 150–200 Hz range, and 165 Hz in particular, is popular.</p>' },
-        { h2: 'Is 165 Hz safe for my speaker?', html: '<p>Yes, at sensible volume. It\'s an ordinary audio tone — lower than most music bass lines. Avoid running any tone at 100% volume for minutes on end, and stop if you hear harsh rattling.</p>' }
+        { h2: 'Is 165 Hz safe for my speaker?', html: '<p>Yes, at sensible volume. It\'s an ordinary audio tone — in the range of a bass guitar or a low male voice. Avoid running any tone at 100% volume for minutes on end, and stop if you hear harsh rattling.</p>' }
     ],
     faqs: [
         { q: 'Is 165 Hz the best frequency to remove water?', a: 'It\'s a good, widely used choice. Anything around 150–200 Hz works similarly on phone speakers. Sessions that vary the tone can help shake loose stubborn drops.' },
