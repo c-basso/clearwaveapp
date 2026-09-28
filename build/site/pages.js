@@ -3,7 +3,20 @@ const { APP, ASSETS, SCREENSHOTS, SITE_URL } = require('./config');
 const { URLS } = require('../constants');
 const { esc } = R;
 
-const page = ({ headHtml, navKey, body, guides, faqs }) => `${headHtml}
+// Give every <td> a data-label from its column header so tables can stack into cards on phones.
+function labelTables(html) {
+    return html.replace(/<table>([\s\S]*?)<\/table>/g, (table) => {
+        const heads = [...(table.match(/<thead>[\s\S]*?<\/thead>/) || [''])[0].matchAll(/<th>([\s\S]*?)<\/th>/g)].map((m) => m[1].replace(/<[^>]*>/g, '').replace(/"/g, '&quot;'));
+        if (!heads.length) return table;
+        return table.replace(/<tr>([\s\S]*?)<\/tr>/g, (row) => {
+            let i = 0;
+            row = row.replace(/<td>\s*<\/td>/g, '<td>—</td>');
+            return row.replace(/<td>/g, () => `<td data-label="${heads[i++] || ''}">`);
+        });
+    });
+}
+
+const page = ({ headHtml, navKey, body, guides, faqs }) => labelTables(`${headHtml}
 <body>
 ${R.nav(navKey)}
 <main id="main">
@@ -14,7 +27,7 @@ ${R.stickyBar()}
 ${R.scripts()}
 </body>
 </html>
-`;
+`);
 
 const faqItem = (f, open = false) => `
 <details class="faq-item"${open ? ' open' : ''}>
@@ -176,7 +189,7 @@ function renderGuide({ g, guides, faqs, today }) {
             <p>${g.quick}</p>
         </div>
         ${g.intro}
-        <nav class="toc" aria-label="On this page"><p class="toc__h">On this page</p><ol>${toc.map((t) => `<li><a href="#${t.id}">${esc(t.label)}</a></li>`).join('')}</ol></nav>
+        <details class="toc" data-toc><summary class="toc__h">On this page <span class="toc__count">${toc.length} sections</span></summary><nav aria-label="On this page"><ol>${toc.map((t) => `<li><a href="#${t.id}">${esc(t.label)}</a></li>`).join('')}</ol></nav></details>
 
         <h2 id="steps">${esc(g.manual.heading)}</h2>
         <ol class="steps">${g.manual.steps.map((s) => `<li><strong>${esc(s.name)}.</strong> ${esc(s.text)}</li>`).join('')}</ol>

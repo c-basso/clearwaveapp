@@ -18,6 +18,10 @@
         onScroll();
     }
 
+    // Table of contents: open on desktop, collapsed on phones
+    var toc = document.querySelector('[data-toc]');
+    if (toc && window.matchMedia('(min-width: 961px)').matches) toc.open = true;
+
     // Reveal-on-scroll
     if ('IntersectionObserver' in window) {
         var els = document.querySelectorAll('.guide-card, .how__steps li, .tool, .faq-item, .steps li');
