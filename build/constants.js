@@ -31,6 +31,10 @@ const EXPECTED_JSON_LD_TYPES = [
     'BreadcrumbList'
 ];
 
+// Extra URLs to submit on top of the generated pages (e.g. 'https://clearwaveapp.com/privacy.html').
+// Used by build/gindexnow.js.
+const ADDITIONAL_URLS = [];
+
 const INDEX_NOW_KEY = 'z7BMReLA4rvU1k7B6l5hbN6w';
 
 // https://www.indexnow.org/searchengines.json
@@ -50,6 +54,7 @@ module.exports = {
     DEFAULT_LANGUAGE,
     LANGUAGES,
     EXPECTED_JSON_LD_TYPES,
+    ADDITIONAL_URLS,
     INDEX_NOW_KEY,
     INDEX_NOW_ENGINES
 };
