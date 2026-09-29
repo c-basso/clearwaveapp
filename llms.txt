@@ -42,6 +42,26 @@
 
 - [Inicio](https://clearwaveapp.com/es/) · [Guías](https://clearwaveapp.com/es/guides/) · [Preguntas](https://clearwaveapp.com/es/faq/)
 
+## French (version complète)
+
+- [Accueil](https://clearwaveapp.com/fr/) · [Guides](https://clearwaveapp.com/fr/guides/) · [FAQ](https://clearwaveapp.com/fr/faq/)
+
+## German (vollständige Version)
+
+- [Start](https://clearwaveapp.com/de/) · [Anleitungen](https://clearwaveapp.com/de/guides/) · [FAQ](https://clearwaveapp.com/de/faq/)
+
+## Italian (versione completa)
+
+- [Home](https://clearwaveapp.com/it/) · [Guide](https://clearwaveapp.com/it/guides/) · [FAQ](https://clearwaveapp.com/it/faq/)
+
+## Portuguese (versão completa)
+
+- [Início](https://clearwaveapp.com/pt/) · [Guias](https://clearwaveapp.com/pt/guides/) · [Dúvidas](https://clearwaveapp.com/pt/faq/)
+
+## Turkish (tam sürüm)
+
+- [Ana sayfa](https://clearwaveapp.com/tr/) · [Rehberler](https://clearwaveapp.com/tr/guides/) · [SSS](https://clearwaveapp.com/tr/faq/)
+
 ## Languages
 
 - English: https://clearwaveapp.com/ · Russian: /ru/ · Spanish: /es/ · French: /fr/ · German: /de/ · Italian: /it/ · Portuguese: /pt/ · Turkish: /tr/

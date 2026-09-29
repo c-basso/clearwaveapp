@@ -136,3 +136,153 @@ expulsar agua del iPhone · sacar agua de la bocina del iPhone · sacar agua del
 
 ## Preguntas `/es/faq/<slug>/`
 funciona expulsar agua con sonido · es seguro · cuánto tarda en secarse la bocina · meter el iPhone en arroz · qué frecuencia saca el agua · bocina reventada · AirPods · el iPhone tiene función para expulsar agua · cuántas veces · Clear Wave es gratis
+
+---
+
+# FR — mots-clés et plan des pages (`/fr/`)
+
+_Ajouté 2026-09-29._ Textes rédigés pour les recherches en français (pas une traduction littérale). Nom de l’app sur l’App Store : **« Éjecter eau du haut-parleur »** (« Son clair après mouillage ») ; captures dans `assets/appstore/fr/` (localisation fr-CA du listing). Volumes indicatifs : à vérifier dans Google Keyword Planner (FR, BE, CH, CA).
+
+## Accueil `/fr/`
+éjecter l’eau iPhone · enlever l’eau du haut-parleur iPhone · nettoyer haut-parleur iPhone · application éjecter l’eau
+
+## Guides `/fr/guides/<slug>/`
+| Page | Requête principale | Longue traîne |
+|---|---|---|
+| `enlever-eau-haut-parleur-iphone` | enlever l’eau du haut-parleur iPhone | eau dans le haut-parleur, faire sortir l’eau de l’iPhone |
+| `application-ejecter-eau-iphone` | application pour éjecter l’eau | appli éjecter eau iPhone |
+| `reparer-haut-parleur-telephone` | réparer le haut-parleur du téléphone | haut-parleur faible |
+| `haut-parleur-iphone-ne-marche-plus` | haut-parleur iPhone ne marche plus | plus de son iPhone |
+| `son-etouffe-iphone-apres-eau` | son étouffé iPhone après l’eau | son sourd, comme sous l’eau |
+| `haut-parleur-iphone-gresille` | haut-parleur iPhone grésille | crépite, son déformé |
+| `raccourci-ejecter-eau-iphone` | raccourci éjecter l’eau iPhone | water eject raccourci ne marche pas |
+| `son-165-hz-ejecter-eau` | son 165 Hz éjecter l’eau | fréquence pour enlever l’eau |
+| `haut-parleur-grille-que-faire` | haut-parleur grillé téléphone | comment savoir si le haut-parleur est grillé |
+| `nettoyer-haut-parleur-iphone` | nettoyer haut-parleur iPhone | poussière, grille |
+| `iphone-tombe-dans-eau` | iPhone tombé dans l’eau que faire | liquide détecté dans le connecteur, iPhone dans le riz |
+| `test-haut-parleur-gauche-droite` | test haut-parleur gauche droite | test stéréo |
+| `sonometre-iphone` | sonomètre iPhone | décibelmètre, mesurer les décibels |
+| `generateur-de-frequence-iphone` | générateur de fréquence iPhone | son de test |
+
+## FAQ `/fr/faq/<slug>/`
+éjecter l’eau par le son ça marche · sans danger · combien de temps sèche le haut-parleur · iPhone dans le riz · quelle fréquence · haut-parleur grillé · AirPods · l’iPhone a-t-il une fonction pour éjecter l’eau · combien de fois · Clear Wave gratuit
+
+---
+
+# DE — Keywords und Seitenplan (`/de/`)
+
+_Hinzugefügt 2026-09-29._ Texte für deutsche Suchanfragen geschrieben (keine wörtliche Übersetzung), in der Du-Form wie das App-Store-Listing. App-Name im deutschen App Store: **„Wasser aus Lautsprecher“** („Klarer Klang nach Nässe“); Screenshots in `assets/appstore/de/`. Suchvolumen nur Richtwerte – im Google Keyword Planner für DE, AT, CH prüfen.
+
+## Startseite `/de/`
+Wasser aus Lautsprecher · Wasser aus iPhone-Lautsprecher entfernen · iPhone-Lautsprecher reinigen · App Wasser aus Lautsprecher
+
+## Anleitungen `/de/guides/<slug>/`
+| Seite | Haupt-Keyword | Longtail |
+|---|---|---|
+| `wasser-aus-iphone-lautsprecher-entfernen` | Wasser aus iPhone-Lautsprecher entfernen | Wasser im Lautsprecher, Wasser aus Handy bekommen |
+| `app-wasser-aus-lautsprecher` | App Wasser aus Lautsprecher | Water Eject App |
+| `handy-lautsprecher-reparieren` | Handy-Lautsprecher reparieren | Lautsprecher leise |
+| `iphone-lautsprecher-funktioniert-nicht` | iPhone Lautsprecher funktioniert nicht | kein Ton iPhone |
+| `iphone-lautsprecher-dumpf-nach-wasser` | iPhone Lautsprecher dumpf | klingt wie unter Wasser |
+| `iphone-lautsprecher-knistert` | iPhone Lautsprecher knistert | rauscht, scheppert, verzerrt |
+| `water-eject-kurzbefehl-iphone` | Water Eject Kurzbefehl | Kurzbefehl funktioniert nicht |
+| `165-hz-ton-wasser-entfernen` | 165 Hz Ton | Frequenz Wasser entfernen |
+| `lautsprecher-durchgebrannt-was-tun` | Handy Lautsprecher durchgebrannt | Lautsprecher kaputt erkennen |
+| `iphone-lautsprecher-reinigen` | iPhone Lautsprecher reinigen | Staub, Gitter |
+| `iphone-ins-wasser-gefallen` | iPhone ins Wasser gefallen was tun | Flüssigkeit im Anschluss erkannt, iPhone in Reis |
+| `lautsprecher-test-links-rechts` | Lautsprecher Test links rechts | Stereotest |
+| `dezibel-messen-iphone` | Dezibel messen iPhone | Schallpegelmesser, Dezibelmesser |
+| `frequenzgenerator-iphone` | Frequenzgenerator iPhone | Tongenerator |
+
+## FAQ `/de/faq/<slug>/`
+funktioniert Wasser-Auswerfen mit Ton · ist es sicher · wie lange trocknet der Lautsprecher · iPhone in Reis · welche Frequenz · durchgebrannter Lautsprecher · AirPods · hat das iPhone eine Wasser-Auswurf-Funktion · wie oft · ist Clear Wave kostenlos
+
+---
+
+# IT — parole chiave e mappa delle pagine (`/it/`)
+
+_Aggiunto 2026-09-29._ Testi scritti per le ricerche in italiano (non traduzione letterale), con il «tu» come nella scheda App Store. Nome dell’app nell’App Store italiano: **«Togliere l’acqua dal telefono»** («Suono chiaro dopo bagnato»); screenshot in `assets/appstore/it/`. Volumi indicativi: da verificare con Google Keyword Planner (IT, CH).
+
+## Home `/it/`
+togliere l’acqua dal telefono · togliere acqua altoparlante iPhone · pulire altoparlante iPhone · app per togliere l’acqua
+
+## Guide `/it/guides/<slug>/`
+| Pagina | Keyword principale | Long tail |
+|---|---|---|
+| `togliere-acqua-altoparlante-iphone` | come togliere l’acqua dall’altoparlante iPhone | acqua nell’altoparlante, suono per togliere l’acqua |
+| `app-togliere-acqua-dal-telefono` | app per togliere l’acqua dal telefono | espulsione acqua iPhone app |
+| `riparare-altoparlante-telefono` | riparare altoparlante telefono | altoparlante basso |
+| `altoparlante-iphone-non-funziona` | altoparlante iPhone non funziona | iPhone senza audio |
+| `audio-ovattato-iphone-dopo-acqua` | audio ovattato iPhone | suona sott’acqua |
+| `altoparlante-iphone-gracchia` | altoparlante iPhone gracchia | frigge, distorce |
+| `comando-rapido-espelli-acqua` | comando rapido espellere acqua | water eject non funziona |
+| `suono-165-hz-togliere-acqua` | suono 165 Hz | frequenza per togliere l’acqua |
+| `altoparlante-bruciato-cosa-fare` | altoparlante telefono bruciato | come capire se è bruciato |
+| `pulire-altoparlante-iphone` | pulire altoparlante iPhone | polvere, griglia |
+| `iphone-caduto-in-acqua` | iPhone caduto in acqua cosa fare | rilevato liquido nel connettore, iPhone nel riso |
+| `test-altoparlante-destro-sinistro` | test altoparlante destro sinistro | test stereo |
+| `misurare-decibel-iphone` | misurare decibel iPhone | fonometro |
+| `generatore-di-frequenze-iphone` | generatore di frequenze iPhone | generatore di toni |
+
+## FAQ `/it/faq/<slug>/`
+funziona togliere l’acqua con il suono · è sicuro · quanto ci mette ad asciugarsi · iPhone nel riso · quale frequenza · altoparlante bruciato · AirPods · l’iPhone ha l’espulsione dell’acqua · quante volte · Clear Wave è gratis
+
+---
+
+# PT — palavras-chave e mapa de páginas (`/pt/`)
+
+_Adicionado 2026-09-29._ Textos escritos para buscas em português do Brasil (não é tradução literal), com «você» como na página da App Store. Nome do app na App Store brasileira: **«Remover água do alto-falante»** («Som claro depois de molhar»); capturas em `assets/appstore/pt/`. O Brasil busca muito «som para tirar água do celular» — por isso esse termo aparece na home e no guia de 165 Hz. Volumes indicativos: confira no Google Keyword Planner (BR, PT).
+
+## Início `/pt/`
+tirar água do alto-falante do iPhone · som para tirar água do celular · limpar alto-falante do iPhone · app para tirar água do celular
+
+## Guias `/pt/guides/<slug>/`
+| Página | Palavra-chave principal | Cauda longa |
+|---|---|---|
+| `como-tirar-agua-do-alto-falante-iphone` | como tirar água do alto-falante do iPhone | entrou água no alto-falante |
+| `app-para-tirar-agua-do-celular` | app para tirar água do celular | aplicativo para tirar água |
+| `consertar-alto-falante-do-celular` | como consertar o alto-falante do celular | alto-falante baixo |
+| `alto-falante-iphone-nao-funciona` | alto-falante do iPhone não funciona | iPhone sem som |
+| `som-abafado-iphone-depois-da-agua` | som abafado no iPhone | som de debaixo d’água |
+| `alto-falante-iphone-chiando` | alto-falante do iPhone chiando | estalando, distorcido |
+| `atalho-para-tirar-agua-iphone` | atalho para tirar água do iPhone | water eject não funciona |
+| `som-165-hz-tirar-agua` | som para tirar água do celular 165 Hz | frequência para tirar água |
+| `alto-falante-estourado-o-que-fazer` | alto-falante do celular estourado | como saber se estourou |
+| `limpar-alto-falante-iphone` | como limpar o alto-falante do iPhone | poeira, grade |
+| `iphone-caiu-na-agua` | iPhone caiu na água o que fazer | líquido detectado no conector, iPhone no arroz |
+| `teste-alto-falante-esquerdo-direito` | teste de som esquerdo e direito | teste estéreo |
+| `medidor-de-decibeis-iphone` | medidor de decibéis iPhone | decibelímetro |
+| `gerador-de-frequencia-iphone` | gerador de frequência iPhone | gerador de tons |
+
+## Dúvidas `/pt/faq/<slug>/`
+som para tirar água funciona · é seguro · quanto tempo seca · iPhone no arroz · qual frequência · alto-falante estourado · AirPods · iPhone tem função para tirar água · quantas vezes · Clear Wave é grátis
+
+---
+
+# TR — anahtar kelimeler ve sayfa haritası (`/tr/`)
+
+_2026-09-29 eklendi._ Metinler Türkçe aramalar için yazıldı (birebir çeviri değil), resmî «siz» hitabıyla. Türkiye App Store’undaki adı: **«Hoparlörden suyu çıkar»**; ekran görüntüleri `assets/appstore/tr/` içinde. Türkiye’de en çok aranan ifade «hoparlör temizleme sesi» — bu yüzden 165 Hz rehberinin ana kelimesi o. Hacimler tahminidir: Google Keyword Planner’da (TR) doğrulayın.
+
+## Ana sayfa `/tr/`
+iPhone hoparlörden su çıkarma · hoparlör temizleme sesi · hoparlörden su çıkarma uygulaması · telefon hoparlöründen su çıkarma
+
+## Rehberler `/tr/guides/<slug>/`
+| Sayfa | Ana kelime | Uzun kuyruk |
+|---|---|---|
+| `iphone-hoparlorden-su-nasil-cikar` | iPhone hoparlörden su nasıl çıkar | hoparlöre su kaçtı |
+| `hoparlorden-su-cikarma-uygulamasi` | hoparlörden su çıkarma uygulaması | su atma uygulaması |
+| `telefon-hoparloru-tamiri` | telefon hoparlörü tamiri | hoparlör sesi az geliyor |
+| `iphone-hoparlor-calismiyor` | iPhone hoparlör çalışmıyor | iPhone ses gelmiyor |
+| `iphone-hoparlor-boguk-ses` | iPhone hoparlör boğuk ses | su altından gelen ses |
+| `iphone-hoparlor-cizirti` | iPhone hoparlör cızırtı yapıyor | çıtırtı, parazit |
+| `su-cikarma-kisayolu-iphone` | su çıkarma kısayolu iPhone | water eject çalışmıyor |
+| `hoparlor-temizleme-sesi-165-hz` | hoparlör temizleme sesi | 165 Hz, su çıkarma frekansı |
+| `hoparlor-patladi-ne-yapmali` | telefon hoparlörü patladı | patlak hoparlör nasıl anlaşılır |
+| `iphone-hoparlor-temizleme` | iPhone hoparlör temizleme | toz, ızgara |
+| `telefon-suya-dustu-ne-yapmali` | telefon suya düştü ne yapmalı | sıvı algılandı uyarısı, pirinç |
+| `sol-sag-hoparlor-testi` | sol sağ ses testi | stereo test |
+| `desibel-olcer-iphone` | desibel ölçer iPhone | ses seviyesi ölçer |
+| `frekans-ureteci-iphone` | frekans üreteci iPhone | ton üreteci |
+
+## SSS `/tr/faq/<slug>/`
+sesle su çıkarma işe yarar mı · güvenli mi · ne kadar sürede kurur · pirince konur mu · hangi frekans · patlak hoparlör · AirPods · iPhone’da su çıkarma özelliği · kaç kez · Clear Wave ücretsiz mi
