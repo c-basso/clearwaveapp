@@ -12,7 +12,7 @@ const { readImageDimensions } = require('./lib/imageDimensions');
 (async function() {
     const urlsPath = path.join(__dirname, '..', 'urls.txt');
 
-    fs.writeFileSync(urlsPath, URLS.map(({url}) => url).join('\n'), 'utf8');
+    fs.writeFileSync(urlsPath, require('./site').allUrls().join('\n'), 'utf8');
     console.log(`✅ Successfully built urls.txt file`);
     console.log(`📁 Output saved to: ${urlsPath}`);
     console.log()

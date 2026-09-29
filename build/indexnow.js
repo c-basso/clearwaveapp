@@ -3,7 +3,8 @@ const {URL} = require('url');
 const {execSync} = require('child_process');
 const fs = require('fs');
 
-const {INDEX_NOW_KEY, URLS, SITE_URL, INDEX_NOW_ENGINES} = require('./constants');
+const {INDEX_NOW_KEY, SITE_URL, INDEX_NOW_ENGINES} = require('./constants');
+const {allUrls} = require('./site');
 
 const indexNow = async (engine) => {
     console.log('🚀 Starting IndexNow submit...');
@@ -11,12 +12,12 @@ const indexNow = async (engine) => {
     const data = {
         host: new URL(SITE_URL).hostname,
         key: INDEX_NOW_KEY,
-        urlList: URLS.map(({url}) => url)
+        urlList: allUrls()
     };
 
     console.log()
     console.log('🌐 Target search engine:', engine);
-    console.log('📦 Payload:', JSON.stringify(data, null, 2));
+    console.log(`📦 Payload: ${data.urlList.length} URLs (host ${data.host})`);
 
     const command = `curl --header "Content-Type: application/json; charset=utf-8" \
   --request POST \

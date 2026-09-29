@@ -92,14 +92,19 @@ function build() {
         faqs.forEach((f) => write(`${dir}faq/${f.slug}`, P.renderFaq({ f, guides, faqs, today }), version));
         console.log(`✅ [${l}] home + ${guides.length} guides + ${faqs.length} FAQ pages`);
     }
-    // urls.txt feeds IndexNow (build/indexnow.js)
-    const urls = [
-        ...pageList().map((p) => SITE_URL + p.path.replace(/^\//, '')),
-        ...URLS.filter((u) => !SITE_LANGS.includes(u.lang)).map((u) => u.url)
-    ];
+    // urls.txt = every public page (homepages, guides, FAQ). Same list build/indexnow.js submits.
+    const urls = allUrls();
     fs.writeFileSync(path.join(ROOT, 'urls.txt'), urls.join('\n'), 'utf8');
     console.log(`✅ urls.txt (${urls.length} URLs)`);
 }
 
-module.exports = { pageList, build, SITE_LANGS };
+// Every public URL: all pages of site locales + homepages of any locale still on the old template.
+function allUrls() {
+    return [
+        ...pageList().map((p) => SITE_URL + p.path.replace(/^\//, '')),
+        ...URLS.filter((u) => !SITE_LANGS.includes(u.lang)).map((u) => u.url)
+    ];
+}
+
+module.exports = { pageList, build, allUrls, SITE_LANGS };
 if (require.main === module) build();
