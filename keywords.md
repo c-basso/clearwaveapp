@@ -286,3 +286,33 @@ iPhone hoparlörden su çıkarma · hoparlör temizleme sesi · hoparlörden su 
 
 ## SSS `/tr/faq/<slug>/`
 sesle su çıkarma işe yarar mı · güvenli mi · ne kadar sürede kurur · pirince konur mu · hangi frekans · patlak hoparlör · AirPods · iPhone’da su çıkarma özelliği · kaç kez · Clear Wave ücretsiz mi
+
+---
+
+# HI — कीवर्ड और पेज मैप (`/hi/`)
+
+_2026-10-04 को जोड़ा गया।_ Повод: GSC — хинглиш-запросы «phone se pani kaise nikale», «mobile ka pani kaise nikale», «फोन से पानी कैसे निकाले» стоят на позиции 1–3 на EN-главной, а Индия даёт больше всех кликов (24 из 165). Тексты написаны на хинди с вежливым «आप» и с английскими терминами там, где их так и ищут: iPhone, स्पीकर, ऐप, Hz. Slug — хинглиш. Название в индийском App Store на хинди: **«स्पीकर से पानी निकालो»** («गीलापन के बाद साफ आवाज़»), 5.0★ (2). Скриншоты в IN-сторе не локализованы (те же, что EN) и лежат в `assets/appstore/hi/`. Хинди-названия настроек Apple не проверены, рядом указаны английские. Объёмы ориентировочные: проверять в GSC (фильтр `/hi/`, страна IND).
+
+## होम `/hi/`
+phone se pani kaise nikale · फ़ोन से पानी कैसे निकालें · mobile ka pani kaise nikale · स्पीकर से पानी निकालो · iPhone स्पीकर क्लीनर
+
+## गाइड `/hi/guides/<slug>/`
+| Slug | Основной запрос | Длинный хвост |
+|---|---|---|
+| `iphone-speaker-se-pani-kaise-nikale` | iPhone स्पीकर से पानी कैसे निकालें | speaker se pani kaise nikale |
+| `speaker-se-pani-nikalne-wala-app` | स्पीकर से पानी निकालने वाला ऐप | pani nikalne wala app |
+| `phone-speaker-kaise-theek-kare` | फ़ोन स्पीकर कैसे ठीक करें | awaz kam aa rahi hai |
+| `iphone-speaker-kaam-nahi-kar-raha` | iPhone स्पीकर काम नहीं कर रहा | iPhone me awaz nahi aa rahi |
+| `iphone-awaz-dabi-hui` | iPhone स्पीकर की आवाज़ दबी हुई | पानी के अंदर जैसी आवाज़ |
+| `iphone-speaker-se-khar-khar-awaz` | iPhone स्पीकर से खरखर आवाज़ | चटचट, भिनभिनाहट |
+| `water-eject-shortcut-iphone` | water eject shortcut iPhone | शॉर्टकट नहीं चल रहा |
+| `speaker-saaf-karne-wali-awaz-165-hz` | स्पीकर से पानी निकालने वाली आवाज़ | 165 Hz |
+| `speaker-phat-gaya-kya-kare` | फ़ोन का स्पीकर फट गया | कैसे पहचानें |
+| `iphone-speaker-saaf-kaise-kare` | iPhone स्पीकर कैसे साफ़ करें | धूल, जाली |
+| `phone-pani-me-gir-gaya-kya-kare` | फ़ोन पानी में गिर गया क्या करें | mobile ka pani kaise nikale, चावल |
+| `left-right-speaker-test` | left right speaker test | स्टीरियो टेस्ट |
+| `decibel-meter-iphone` | डेसिबल मीटर iPhone | sound meter |
+| `frequency-generator-iphone` | फ़्रीक्वेंसी जनरेटर iPhone | tone generator |
+
+## सवाल-जवाब `/hi/faq/<slug>/`
+Clear Wave क्या है · क्या आवाज़ से पानी निकलता है · safe है या नहीं · कितनी देर में सूखता है · चावल · कौन-सी फ़्रीक्वेंसी · फटा स्पीकर · AirPods से पानी · iPhone में water eject फ़ीचर · कितनी बार · क्या Clear Wave मुफ़्त है

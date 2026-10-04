@@ -2,6 +2,15 @@
 // short = homepage answer (1–2 sentences), body = full answer page HTML.
 module.exports = [
 {
+    slug: 'what-is-clear-wave',
+    question: 'What is Clear Wave?',
+    title: 'What Is Clear Wave? The Water Eject App for iPhone',
+    description: 'Clear Wave is a free iPhone and iPad app that ejects water and dust from your speaker with sound, then tests it. What it does and how to get it.',
+    short: 'Clear Wave is a free iPhone and iPad app (App Store name: “Speaker Fix – Water Eject”) that pushes water and dust out of your speaker with tuned sound waves, then checks the result with a stereo test, tone generator and dB meter.',
+    body: '<p>Clear Wave is an iOS app for fixing a speaker that sounds muffled, quiet or crackly after it got wet or dusty. On the App Store it is listed as <em>“Speaker Fix – Water Eject”</em>; Clear Wave is the brand and this website.</p><h2>What Clear Wave does</h2><ul class="check-list"><li><strong>Water eject &amp; speaker cleaner</strong>: tuned low-frequency sound sessions push water out of the grille and loosen dust.</li><li><strong>Stereo test</strong>: plays the left and right channel separately.</li><li><strong>Tone generator</strong>: any frequency, to find rattles and missing ranges.</li><li><strong>dB meter</strong>: measures loudness before and after cleaning.</li></ul><h2>Is there a Clear Wave online or web version?</h2><p>No. Clear Wave is a native app for iPhone and iPad (iOS 17.1+); it works offline, so you don’t need a browser tab open while the sound plays. This website has free step-by-step guides that work without the app. But you can play a <a href="/guides/165-hz-water-eject-sound/">free 165 Hz water eject tone online</a> right in your browser.</p><h2>Who makes it</h2><p>Clear Wave is made by an independent developer and is not affiliated with Apple or with other products that use the name “Clear Wave”. It is free to download; full access to all tools is an optional in-app purchase with a free trial.</p>',
+    guide: 'water-eject-app-iphone'
+},
+{
     slug: 'does-water-eject-work',
     question: 'Does water eject actually work?',
     title: 'Does Water Eject Actually Work? (Honest Answer)',

@@ -1,7 +1,7 @@
 // Homepage copy (English). Primary keywords: water eject app, speaker fix, get water out of iPhone speaker, speaker cleaner.
 module.exports = {
-    title: 'Water Eject App for iPhone – Speaker Fix & Cleaner | Clear Wave',
-    description: 'Water in your iPhone speaker? Clear Wave ejects water and dust with tuned sound waves in 60 seconds, then tests your speaker. Free on iPhone & iPad.',
+    title: 'Clear Wave – Water Eject & Speaker Cleaner App for iPhone',
+    description: 'How to clean your iPhone speaker with sound: Clear Wave ejects water and dust with tuned sound waves in 60 seconds, then tests it. Free for iPhone & iPad.',
     hero: {
         eyebrow: 'Speaker Fix – Water Eject for iPhone & iPad',
         h1Lead: 'Water eject',

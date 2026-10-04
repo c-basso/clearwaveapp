@@ -46,6 +46,7 @@ const LOCALES = {
             meter: { caption: 'dB sound meter', alt: 'Clear Wave decibel meter showing 52.2 dB, normal conversation level' }
         },
         t: {
+            player: {"title": "Free online water eject tone", "play": "Play {hz} Hz · 30 s", "stop": "Stop", "freq": "Frequency", "note": "Volume 70–80%, speaker facing down, silent mode off. Repeat 2–3 times. The Clear Wave app does this offline and tests both speakers."},
             skip: 'Skip to content', homeAria: 'Clear Wave home', navHow: 'How it works', navGuides: 'Guides', navFaq: 'FAQ', getApp: 'Get the app', mainNav: 'Main',
             badgeAlt: 'Download on the App Store', storeAria: 'Download Clear Wave – Speaker Fix – Water Eject on the App Store',
             iconAlt: 'Clear Wave speaker fix and water eject app icon',
@@ -95,6 +96,7 @@ const LOCALES = {
             meter: { caption: 'Шумомер (децибелометр)', alt: 'Шумомер Clear Wave показывает 52,2 дБ — уровень обычного разговора' }
         },
         t: {
+            player: {"title": "Звук для удаления воды онлайн — бесплатно", "play": "Включить {hz} Гц · 30 с", "stop": "Стоп", "freq": "Частота", "note": "Громкость 70–80 %, динамик вниз, беззвучный режим выключен. Повторите 2–3 раза. В приложении Clear Wave это работает без интернета и с проверкой обоих динамиков."},
             skip: 'Перейти к содержанию', homeAria: 'Clear Wave — главная', navHow: 'Как это работает', navGuides: 'Инструкции', navFaq: 'Вопросы', getApp: 'Скачать', mainNav: 'Основное меню',
             badgeAlt: 'Загрузите в App Store', storeAria: 'Скачать «Удалить воду из динамика» (Clear Wave) в App Store',
             iconAlt: 'Иконка приложения Clear Wave — удалить воду из динамика',
@@ -143,6 +145,7 @@ const LOCALES = {
             meter: { caption: 'Medidor de decibelios', alt: 'Medidor de decibeles de Clear Wave marcando 52,2 dB, conversación normal' }
         },
         t: {
+            player: {"title": "Sonido para sacar agua online, gratis", "play": "Reproducir {hz} Hz · 30 s", "stop": "Detener", "freq": "Frecuencia", "note": "Volumen 70–80 %, bocina hacia abajo, modo silencio desactivado. Repite 2–3 veces. La app Clear Wave lo hace sin internet y prueba las dos bocinas."},
             skip: 'Ir al contenido', homeAria: 'Inicio de Clear Wave', navHow: 'Cómo funciona', navGuides: 'Guías', navFaq: 'Preguntas', getApp: 'Descargar', mainNav: 'Menú principal',
             badgeAlt: 'Descargar en el App Store', storeAria: 'Descargar Limpiar bocina expulsar agua (Clear Wave) en el App Store',
             iconAlt: 'Icono de Clear Wave, app para expulsar agua de la bocina',
@@ -191,6 +194,7 @@ const LOCALES = {
             meter: { caption: 'Décibelmètre, sonomètre', alt: 'Sonomètre Clear Wave affichant 52,2 dB, niveau d’une conversation normale' }
         },
         t: {
+            player: {"title": "Son pour éjecter l’eau en ligne, gratuit", "play": "Lancer {hz} Hz · 30 s", "stop": "Arrêter", "freq": "Fréquence", "note": "Volume 70–80 %, haut-parleur vers le bas, mode silencieux désactivé. Répétez 2–3 fois. L’app Clear Wave le fait hors ligne et teste les deux haut-parleurs."},
             skip: 'Aller au contenu', homeAria: 'Accueil Clear Wave', navHow: 'Comment ça marche', navGuides: 'Guides', navFaq: 'FAQ', getApp: 'Télécharger', mainNav: 'Menu principal',
             badgeAlt: 'Télécharger dans l’App Store', storeAria: 'Télécharger Éjecter eau du haut-parleur (Clear Wave) dans l’App Store',
             iconAlt: 'Icône de Clear Wave, l’app pour éjecter l’eau du haut-parleur',
@@ -239,6 +243,7 @@ const LOCALES = {
             meter: { caption: 'Dezibel messen', alt: 'Schallpegelmesser von Clear Wave zeigt 52,2 dB, normales Gespräch' }
         },
         t: {
+            player: {"title": "Kostenloser Online-Ton gegen Wasser im Lautsprecher", "play": "{hz} Hz abspielen · 30 s", "stop": "Stopp", "freq": "Frequenz", "note": "Lautstärke 70–80 %, Lautsprecher nach unten, Stummmodus aus. 2–3-mal wiederholen. Die Clear-Wave-App macht das offline und testet beide Lautsprecher."},
             skip: 'Zum Inhalt springen', homeAria: 'Clear Wave Startseite', navHow: 'So funktioniert’s', navGuides: 'Anleitungen', navFaq: 'FAQ', getApp: 'Laden', mainNav: 'Hauptmenü',
             badgeAlt: 'Laden im App Store', storeAria: 'Wasser aus Lautsprecher (Clear Wave) im App Store laden',
             iconAlt: 'App-Symbol von Clear Wave – Wasser aus dem Lautsprecher entfernen',
@@ -287,6 +292,7 @@ const LOCALES = {
             meter: { caption: 'Misuratore di decibel', alt: 'Fonometro di Clear Wave che mostra 52,2 dB, conversazione normale' }
         },
         t: {
+            player: {"title": "Suono per togliere l’acqua online, gratis", "play": "Riproduci {hz} Hz · 30 s", "stop": "Stop", "freq": "Frequenza", "note": "Volume 70–80%, altoparlante verso il basso, modalità silenziosa disattivata. Ripeti 2–3 volte. L’app Clear Wave lo fa offline e testa entrambi gli altoparlanti."},
             skip: 'Vai al contenuto', homeAria: 'Home Clear Wave', navHow: 'Come funziona', navGuides: 'Guide', navFaq: 'FAQ', getApp: 'Scarica', mainNav: 'Menu principale',
             badgeAlt: 'Scarica su App Store', storeAria: 'Scarica Togliere l’acqua dal telefono (Clear Wave) su App Store',
             iconAlt: 'Icona di Clear Wave, l’app per togliere l’acqua dall’altoparlante',
@@ -335,6 +341,7 @@ const LOCALES = {
             meter: { caption: 'Medidor de decibéis', alt: 'Medidor de decibéis do Clear Wave mostrando 52,2 dB, conversa normal' }
         },
         t: {
+            player: {"title": "Som para tirar água online, grátis", "play": "Tocar {hz} Hz · 30 s", "stop": "Parar", "freq": "Frequência", "note": "Volume 70–80%, alto-falante para baixo, modo silencioso desligado. Repita 2–3 vezes. O app Clear Wave faz isso offline e testa os dois alto-falantes."},
             skip: 'Pular para o conteúdo', homeAria: 'Início do Clear Wave', navHow: 'Como funciona', navGuides: 'Guias', navFaq: 'Dúvidas', getApp: 'Baixar', mainNav: 'Menu principal',
             badgeAlt: 'Baixar na App Store', storeAria: 'Baixar Remover água do alto-falante (Clear Wave) na App Store',
             iconAlt: 'Ícone do Clear Wave, app para tirar água do alto-falante',
@@ -383,6 +390,7 @@ const LOCALES = {
             meter: { caption: 'Ses desibel ölçme', alt: 'Clear Wave desibel ölçer 52,2 dB gösteriyor, normal konuşma seviyesi' }
         },
         t: {
+            player: {"title": "Ücretsiz online hoparlör temizleme sesi", "play": "{hz} Hz çal · 30 sn", "stop": "Durdur", "freq": "Frekans", "note": "Ses %70–80, hoparlör aşağıda, sessiz mod kapalı. 2–3 kez tekrarlayın. Clear Wave uygulaması bunu çevrimdışı yapar ve iki hoparlörü de test eder."},
             skip: 'İçeriğe geç', homeAria: 'Clear Wave ana sayfa', navHow: 'Nasıl çalışır', navGuides: 'Rehberler', navFaq: 'SSS', getApp: 'İndir', mainNav: 'Ana menü',
             badgeAlt: 'App Store’dan indirin', storeAria: 'Hoparlörden suyu çıkar (Clear Wave) uygulamasını App Store’dan indirin',
             iconAlt: 'Clear Wave uygulama simgesi – hoparlörden suyu çıkar',
@@ -412,6 +420,55 @@ const LOCALES = {
             schemaSub: 'Hoparlör temizleme / su çıkarma', howToTool: 'Clear Wave uygulaması (iPhone / iPad)',
             guidesHub: { title: 'Rehberler: hoparlörde su, boğuk ya da cızırtılı ses', description: 'iPhone hoparlörü için adım adım rehberler: suyu çıkarma, boğuk veya cızırtılı ses, ızgarayı temizleme, sol ve sağ hoparlör testi.', h1: 'Hoparlör rehberleri', sub: 'iPhone hoparlörü boğuk, kısık ya da cızırtılı çıktığında ihtiyacınız olan her şey: önce dürüst elle yöntem, sonra Clear Wave ile tek dokunuşluk yol.', listName: 'Clear Wave rehberleri' },
             faqHub: { title: 'SSS: iPhone hoparlöründe su ve sesle su çıkarma', description: 'iPhone’dan sesle su çıkarma hakkında cevaplar: işe yarar mı, güvenli mi, ne kadar kurur, pirinç, 165 Hz, AirPods, patlak hoparlör ve fiyat.', h1: 'Su çıkarma ve hoparlör SSS', sub: 'Kısa ve dürüst cevaplar; ayrıntılı açıklama bir tık uzakta.' }
+        }
+    },
+    hi: {
+        lang: 'hi',
+        base: '/hi/',
+        ogLocale: 'hi_IN',
+        fonts: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+Devanagari:wght@400;500;600;800&display=swap',
+        shotDir: '/assets/appstore/hi/',
+        ogImage: '/hi/site_preview.png',
+        storeName: 'स्पीकर से पानी निकालो',
+        siteName: 'Clear Wave – iPhone स्पीकर से पानी निकालें',
+        shots: {
+            cover: { caption: 'स्पीकर क्लीनर', alt: 'Clear Wave – iPhone स्पीकर से पानी निकालने और साफ़ करने वाला ऐप' },
+            clear: { caption: 'पानी निकालें', alt: 'Clear Wave साउंड वेव से iPhone स्पीकर का पानी बाहर निकाल रहा है' },
+            test: { caption: 'स्टीरियो टेस्ट', alt: 'Clear Wave में iPhone के बाएँ और दाएँ स्पीकर का टेस्ट' },
+            tone: { caption: 'फ़्रीक्वेंसी जनरेटर', alt: 'Clear Wave फ़्रीक्वेंसी जनरेटर 1028 Hz बजा रहा है; फ़्रीक्वेंसी बदलने के लिए स्वाइप करें' },
+            meter: { caption: 'डेसिबल मीटर', alt: 'Clear Wave डेसिबल मीटर 52.2 dB दिखा रहा है, सामान्य बातचीत का स्तर' }
+        },
+        t: {
+            player: {"title": "मुफ़्त ऑनलाइन पानी निकालने वाली आवाज़", "play": "{hz} Hz बजाएँ · 30 सेकंड", "stop": "रोकें", "freq": "फ़्रीक्वेंसी", "note": "वॉल्यूम 70–80%, स्पीकर नीचे की ओर, साइलेंट मोड बंद। 2–3 बार दोहराएँ। Clear Wave ऐप यह बिना इंटरनेट करता है और दोनों स्पीकर टेस्ट करता है।"},
+            skip: 'सामग्री पर जाएँ', homeAria: 'Clear Wave होम', navHow: 'कैसे काम करता है', navGuides: 'गाइड', navFaq: 'सवाल-जवाब', getApp: 'डाउनलोड', mainNav: 'मुख्य मेन्यू',
+            badgeAlt: 'App Store से डाउनलोड करें', storeAria: 'स्पीकर से पानी निकालो (Clear Wave) ऐप App Store से डाउनलोड करें',
+            iconAlt: 'Clear Wave ऐप आइकन – स्पीकर से पानी निकालो',
+            stickySub: 'पानी निकालें · मुफ़्त', stickyGet: 'पाएँ',
+            footerAbout: 'Clear Wave (App Store पर <em>«स्पीकर से पानी निकालो»</em>) iPhone और iPad का ऐप है, जो साउंड वेव से स्पीकर का पानी और धूल बाहर निकालता है और फिर स्टीरियो टेस्ट, फ़्रीक्वेंसी जनरेटर और डेसिबल मीटर से नतीजा जाँचने देता है।',
+            footerGuides: 'गाइड', footerQuestions: 'सवाल', footerApp: 'ऐप', footerDownload: 'App Store से डाउनलोड करें', privacy: 'गोपनीयता नीति', terms: 'उपयोग की शर्तें', languages: 'भाषाएँ',
+            legal: 'Apple Inc. से संबद्ध नहीं। iPhone और iPad, Apple Inc. के ट्रेडमार्क हैं।',
+            appCardAria: 'Clear Wave ऐप डाउनलोड करें', appCardEyebrow: 'iPhone और iPad के लिए',
+            appCardTitle: 'Clear Wave से एक टैप में करें', appCardText: 'ट्यून की गई साउंड वेव iPhone स्पीकर से पानी और धूल बाहर धकेलती हैं। फिर स्टीरियो टेस्ट और डेसिबल मीटर से नतीजा जाँचें।',
+            appCardMeta: 'मुफ़्त · iOS 17.1+ · 27.1 MB',
+            ctaHeading: 'आवाज़ दबी हुई है? एक मिनट में साफ़ आवाज़।',
+            ctaText: 'Clear Wave डाउनलोड करें, स्पीकर नीचे की ओर करें और पानी निकालना शुरू करें। iPhone और iPad के लिए मुफ़्त।',
+            qrAlt: 'App Store से Clear Wave डाउनलोड करने के लिए QR कोड', qrScan: 'iPhone कैमरे से<br>स्कैन करें',
+            appIdMeta: 'Clear Wave · App Store पर मुफ़्त',
+            screensAria: 'ऐप के स्क्रीनशॉट, आड़ा स्क्रॉल करें',
+            crumbHome: 'होम', crumbGuides: 'गाइड', crumbFaq: 'सवाल-जवाब', crumbAria: 'पेज का रास्ता',
+            guideEyebrow: 'गाइड', byline: (d) => `लेखक: Vladimir Ivakhnenko, Clear Wave के डेवलपर · अपडेट: <time datetime="${d}">${d.split('-').reverse().join('/')}</time>`,
+            quick: 'छोटा जवाब', short: 'संक्षेप में', toc: 'इस पेज पर', tocCount: (n) => `${n} हिस्से`,
+            questions: 'सवाल', moreAnswers: 'और जवाब', sources: 'स्रोत', related: 'मिलती-जुलती गाइड', readGuide: 'गाइड पढ़ें',
+            fullGuide: 'पूरी गाइड', relatedQuestions: 'मिलते-जुलते सवाल', faqEyebrow: 'पानी निकालने के सवाल',
+            tryTitle: 'अपने iPhone पर आज़माएँ', tryText: 'Clear Wave एक टैप में पानी निकालता है; नतीजा स्टीरियो टेस्ट, फ़्रीक्वेंसी जनरेटर और डेसिबल मीटर से जाँचें।',
+            learnMore: 'और पढ़ें', learnMoreAbout: '–', updated: 'आख़िरी अपडेट',
+            sideMeta: 'मुफ़्त · iPhone और iPad · iOS 17.1+',
+            reviewSource: 'App Store रिव्यू, जुलाई 2025', starsAria: '5 में से 5 स्टार',
+            ogAlt: 'Clear Wave: iPhone स्पीकर से पानी निकालें',
+            schemaAppDesc: 'साउंड वेव से स्पीकर का पानी और धूल निकालने वाला iPhone और iPad ऐप, जिसमें स्टीरियो टेस्ट, फ़्रीक्वेंसी जनरेटर और डेसिबल मीटर है।',
+            schemaSub: 'स्पीकर क्लीनर / पानी निकालना', howToTool: 'Clear Wave ऐप (iPhone / iPad)',
+            guidesHub: { title: 'गाइड: फ़ोन स्पीकर में पानी, दबी या खरखराती आवाज़', description: 'iPhone स्पीकर के लिए स्टेप-बाय-स्टेप गाइड: पानी निकालना, दबी या खरखराती आवाज़ ठीक करना, जाली साफ़ करना और बाएँ-दाएँ स्पीकर टेस्ट।', h1: 'स्पीकर गाइड', sub: 'जब iPhone स्पीकर की आवाज़ दबी, धीमी या खरखराती हो, तब के लिए सब कुछ: पहले हाथ से करने वाला तरीका, फिर Clear Wave से एक टैप वाला तरीका।', listName: 'Clear Wave गाइड' },
+            faqHub: { title: 'सवाल-जवाब: फ़ोन स्पीकर से आवाज़ के ज़रिए पानी निकालना', description: 'आवाज़ से iPhone का पानी निकालने पर जवाब: क्या यह काम करता है, सुरक्षित है या नहीं, कितनी देर में सूखता है, चावल, 165 Hz, AirPods और कीमत।', h1: 'पानी निकालने और स्पीकर के सवाल', sub: 'छोटे और सीधे जवाब; पूरी जानकारी एक क्लिक दूर।' }
         }
     }
 };

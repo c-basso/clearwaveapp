@@ -1,6 +1,15 @@
 // Fragen. Jede hat eine eigene Seite /de/faq/<slug>/ („Mehr erfahren“) und erscheint auf der Startseite.
 module.exports = [
 {
+    id: 'what-is-clear-wave', slug: 'was-ist-clear-wave',
+    question: 'Was ist Clear Wave?',
+    title: 'Was ist Clear Wave? Die App gegen Wasser im Lautsprecher',
+    description: 'Clear Wave ist eine kostenlose App für iPhone und iPad, die Wasser und Staub per Schall aus dem Lautsprecher entfernt und ihn danach testet.',
+    short: 'Clear Wave ist eine kostenlose App für iPhone und iPad (im App Store: „Wasser aus Lautsprecher“), die Wasser und Staub mit Schallwellen aus dem Lautsprecher drückt und den Klang danach mit Stereotest, Tongenerator und dB-Messer prüft.',
+    body: '<p>Clear Wave ist eine iOS-App für Lautsprecher, die nach Wasser oder Staub dumpf, leise oder kratzig klingen. Im App Store heißt sie <em>„Wasser aus Lautsprecher“</em>; Clear Wave ist die Marke und diese Website.</p><h2>Was Clear Wave kann</h2><ul class="check-list"><li><strong>Wasser entfernen &amp; Lautsprecher reinigen</strong>: tieffrequente Schall-Sitzungen drücken Wasser aus dem Gitter und lösen Staub.</li><li><strong>Stereotest</strong>: linker und rechter Kanal getrennt.</li><li><strong>Tongenerator</strong>: jede Frequenz, um Scheppern und Lücken zu finden.</li><li><strong>dB-Messer</strong>: Lautstärke vor und nach der Reinigung.</li></ul><h2>Gibt es Clear Wave online?</h2><p>Nein. Clear Wave ist eine App für iPhone und iPad (iOS 17.1+) und funktioniert offline – kein Browser-Tab muss offen bleiben, während der Ton läuft. Auf dieser Website gibt es kostenlose Schritt-für-Schritt-Anleitungen, die auch ohne App funktionieren. Den <a href="/de/guides/165-hz-ton-wasser-entfernen/">165-Hz-Ton gegen Wasser können Sie aber kostenlos online</a> direkt im Browser abspielen.</p><h2>Wer steckt dahinter</h2><p>Clear Wave stammt von einem unabhängigen Entwickler und steht in keiner Verbindung zu Apple oder anderen Produkten namens „Clear Wave“. Der Download ist kostenlos; voller Zugriff auf alle Werkzeuge ist ein optionaler In-App-Kauf mit kostenloser Testphase.</p>',
+    guide: 'water-eject-app-iphone'
+},
+{
     id: 'does-water-eject-work', slug: 'funktioniert-wasser-auswerfen-mit-ton',
     question: 'Funktioniert Wasser-Auswerfen mit Ton wirklich?',
     title: 'Funktioniert Wasser-Auswerfen mit Ton wirklich?',

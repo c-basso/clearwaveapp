@@ -203,6 +203,7 @@ ${R.finalCta('home', esc(h.cta.h2))}`;
             <p class="quick__label">${t.quick}</p>
             <p>${g.quick}</p>
         </div>
+        ${['165-hz-water-eject-sound', 'get-water-out-of-iphone-speaker'].includes(idOf(g)) ? R.tonePlayer(165) : ''}
         ${g.intro}
         <details class="toc" data-toc><summary class="toc__h">${t.toc} <span class="toc__count">${t.tocCount(toc.length)}</span></summary><nav aria-label="${esc(t.toc)}"><ol>${toc.map((x) => `<li><a href="#${x.id}">${esc(x.label)}</a></li>`).join('')}</ol></nav></details>
 

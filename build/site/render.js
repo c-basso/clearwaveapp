@@ -222,6 +222,23 @@ ym(103203417,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webv
             : `<li><a href="${it.path}">${esc(it.name)}</a></li>`).join('')}</ol></nav>`;
     }
 
+    // Free in-browser water eject tone (Web Audio). Shown on the 165 Hz and "get water out" guides.
+    function tonePlayer(hz = 165) {
+        const p = t.player;
+        const play = p.play.replace('{hz}', hz);
+        const unit = p.play.includes('Гц') ? 'Гц' : 'Hz';
+        return `<section class="tone-player" data-tone-player data-secs="30" data-play="${esc(p.play)}" data-stop="${esc(p.stop)}" data-unit="${unit}" aria-label="${esc(p.title)}">
+            <p class="tone-player__label">${esc(p.title)}</p>
+            <div class="tone-player__row">
+                <button type="button" class="btn tone-player__btn" data-tp-toggle aria-pressed="false">${esc(play)}</button>
+                <output class="tone-player__hz" data-tp-hz>${hz} ${unit}</output>
+            </div>
+            <label class="tone-player__range"><span>${esc(p.freq)}</span><input type="range" min="100" max="300" step="1" value="${hz}" data-tp-range></label>
+            <div class="tone-player__bar" aria-hidden="true"><span data-tp-bar></span></div>
+            <p class="tone-player__note">${esc(p.note)}</p>
+        </section>`;
+    }
+
     function appCard(location, { title = t.appCardTitle, text = t.appCardText, shotKey = 'cover' } = {}) {
         return `
 <aside class="app-card" aria-label="${esc(t.appCardAria)}">
@@ -256,7 +273,7 @@ ym(103203417,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webv
 
     return {
         L, t, url, esc, strip, abs, slugify, head, nav, footer, scripts, stickyBar, badge, storeLink, shot, appIcon,
-        appCard, finalCta, breadcrumbHtml,
+        appCard, tonePlayer, finalCta, breadcrumbHtml,
         schemaApp, schemaOrg, schemaWebsite, schemaBreadcrumb, schemaFaq, schemaHowTo, schemaArticle
     };
 }

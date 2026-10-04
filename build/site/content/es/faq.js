@@ -1,6 +1,15 @@
 // Preguntas. Cada una tiene su página /es/faq/<slug>/ («Saber más») y aparece en el inicio.
 module.exports = [
 {
+    id: 'what-is-clear-wave', slug: 'que-es-clear-wave',
+    question: '¿Qué es Clear Wave?',
+    title: '¿Qué es Clear Wave? La app para sacar agua de la bocina',
+    description: 'Clear Wave es una app gratis para iPhone y iPad que saca agua y polvo de la bocina con sonido y luego la prueba. Qué hace y cómo descargarla.',
+    short: 'Clear Wave es una app gratis para iPhone y iPad (en la App Store: «Limpiar bocina expulsar agua») que expulsa agua y polvo de la bocina con ondas de sonido y luego comprueba el audio con prueba estéreo, generador de tonos y medidor de decibeles.',
+    body: '<p>Clear Wave es una app de iOS para cuando la bocina suena apagada, baja o con ruido después de mojarse o llenarse de polvo. En la App Store aparece como <em>«Limpiar bocina expulsar agua»</em>; Clear Wave es la marca y este sitio web.</p><h2>Qué hace Clear Wave</h2><ul class="check-list"><li><strong>Expulsar agua y limpiar la bocina</strong>: sesiones de sonido grave que empujan el agua fuera de la rejilla y sueltan el polvo.</li><li><strong>Prueba estéreo</strong>: canal izquierdo y derecho por separado.</li><li><strong>Generador de tonos</strong>: cualquier frecuencia para encontrar vibraciones y huecos.</li><li><strong>Medidor de decibeles</strong>: volumen antes y después de la limpieza.</li></ul><h2>¿Hay una versión online de Clear Wave?</h2><p>No. Es una app para iPhone y iPad (iOS 17.1+) que funciona sin internet, así que no necesitas una pestaña del navegador abierta mientras suena. En este sitio hay guías gratuitas paso a paso que funcionan también sin la app. Pero puedes reproducir <a href="/es/guides/sonido-165-hz-para-sacar-agua/">gratis el sonido de 165 Hz para sacar agua online</a>, directo en el navegador.</p><h2>Quién la hace</h2><p>Clear Wave la hace un desarrollador independiente y no tiene relación con Apple ni con otros productos llamados «Clear Wave». Se descarga gratis; el acceso completo a todas las herramientas es una compra opcional dentro de la app con prueba gratis.</p>',
+    guide: 'water-eject-app-iphone'
+},
+{
     id: 'does-water-eject-work', slug: 'funciona-expulsar-agua-con-sonido',
     question: '¿De verdad funciona expulsar agua con sonido?',
     title: '¿Funciona expulsar agua del iPhone con sonido?',

@@ -1,6 +1,15 @@
 // Dúvidas. Cada uma tem sua página /pt/faq/<slug>/ («Saiba mais») e aparece no início.
 module.exports = [
 {
+    id: 'what-is-clear-wave', slug: 'o-que-e-clear-wave',
+    question: 'O que é o Clear Wave?',
+    title: 'O que é o Clear Wave? O app para tirar água do alto-falante',
+    description: 'O Clear Wave é um app grátis para iPhone e iPad que tira água e poeira do alto-falante com som e depois testa o áudio. O que faz e como baixar.',
+    short: 'O Clear Wave é um app grátis para iPhone e iPad (na App Store: «Remover água do alto-falante») que tira água e poeira do alto-falante com ondas sonoras e depois confere o som com teste estéreo, gerador de frequência e medidor de decibéis.',
+    body: '<p>O Clear Wave é um app de iOS para quando o alto-falante fica abafado, baixo ou chiando depois de molhar ou juntar poeira. Na App Store ele se chama <em>«Remover água do alto-falante»</em>; Clear Wave é a marca e este site.</p><h2>O que o Clear Wave faz</h2><ul class="check-list"><li><strong>Tirar água e limpar o alto-falante</strong>: sessões de som grave empurram a água para fora da grade e soltam a poeira.</li><li><strong>Teste estéreo</strong>: canal esquerdo e direito separados.</li><li><strong>Gerador de frequência</strong>: qualquer frequência para achar trepidações e falhas.</li><li><strong>Medidor de decibéis</strong>: volume antes e depois da limpeza.</li></ul><h2>Existe Clear Wave online?</h2><p>Não. É um app para iPhone e iPad (iOS 17.1+) que funciona offline — não precisa deixar uma aba do navegador aberta enquanto o som toca. Este site tem guias grátis passo a passo que funcionam também sem o app. Mas dá para tocar <a href="/pt/guides/som-165-hz-tirar-agua/">grátis o som de 165 Hz para tirar água online</a>, direto no navegador.</p><h2>Quem faz</h2><p>O Clear Wave é feito por um desenvolvedor independente e não tem relação com a Apple nem com outros produtos chamados «Clear Wave». O download é grátis; o acesso completo a todas as ferramentas é uma compra opcional no app, com teste grátis.</p>',
+    guide: 'water-eject-app-iphone'
+},
+{
     id: 'does-water-eject-work', slug: 'som-para-tirar-agua-funciona',
     question: 'Som para tirar água do celular funciona mesmo?',
     title: 'Som para tirar água do celular funciona mesmo?',

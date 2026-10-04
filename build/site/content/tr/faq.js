@@ -1,6 +1,15 @@
 // SSS. Her sorunun kendi /tr/faq/<slug>/ sayfası («Devamını oku») vardır.
 module.exports = [
 {
+    id: 'what-is-clear-wave', slug: 'clear-wave-nedir',
+    question: 'Clear Wave nedir?',
+    title: 'Clear Wave Nedir? Hoparlörden Su Çıkarma Uygulaması',
+    description: 'Clear Wave, hoparlördeki su ve tozu sesle çıkaran ve ardından test eden ücretsiz bir iPhone ve iPad uygulamasıdır. Ne yapar, nasıl indirilir?',
+    short: 'Clear Wave, iPhone ve iPad için ücretsiz bir uygulamadır (App Store’daki adı: «Hoparlörden suyu çıkar»). Ses dalgalarıyla hoparlördeki su ve tozu dışarı iter, ardından stereo test, frekans üreteci ve desibel ölçerle sesi kontrol eder.',
+    body: '<p>Clear Wave, ıslandıktan veya tozlandıktan sonra boğuk, kısık ya da cızırtılı çalan hoparlörler için bir iOS uygulamasıdır. App Store’da <em>«Hoparlörden suyu çıkar»</em> adıyla yer alır; Clear Wave ise marka ve bu web sitesinin adıdır.</p><h2>Clear Wave ne yapar</h2><ul class="check-list"><li><strong>Su çıkarma ve hoparlör temizleme</strong>: düşük frekanslı ses seansları suyu ızgaradan dışarı iter ve tozu gevşetir.</li><li><strong>Stereo test</strong>: sol ve sağ kanal ayrı ayrı.</li><li><strong>Frekans üreteci</strong>: tıkırtı ve boşlukları bulmak için istediğiniz frekans.</li><li><strong>Desibel ölçer</strong>: temizlikten önce ve sonra ses seviyesi.</li></ul><h2>Clear Wave online var mı?</h2><p>Hayır. Clear Wave, iPhone ve iPad (iOS 17.1+) için bir uygulamadır ve çevrimdışı çalışır; ses çalarken tarayıcı sekmesi açık tutmanız gerekmez. Bu sitede uygulama olmadan da işe yarayan ücretsiz adım adım rehberler var. Ancak <a href="/tr/guides/hoparlor-temizleme-sesi-165-hz/">165 Hz hoparlör temizleme sesini online</a> tarayıcıda ücretsiz çalabilirsiniz.</p><h2>Ücretsiz indirilebilir mi?</h2><p>Evet, Clear Wave App Store’dan ücretsiz indirilir. Tüm araçlara tam erişim, ücretsiz denemesi olan isteğe bağlı bir uygulama içi satın alımdır. Uygulamayı bağımsız bir geliştirici yapar; Apple ile veya «Clear Wave» adını taşıyan başka ürünlerle bağlantısı yoktur.</p>',
+    guide: 'water-eject-app-iphone'
+},
+{
     id: 'does-water-eject-work', slug: 'sesle-su-cikarma-ise-yarar-mi',
     question: 'Sesle su çıkarma gerçekten işe yarar mı?',
     title: 'Sesle Su Çıkarma Gerçekten İşe Yarar mı?',

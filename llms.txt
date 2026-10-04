@@ -62,6 +62,10 @@
 
 - [Ana sayfa](https://clearwaveapp.com/tr/) · [Rehberler](https://clearwaveapp.com/tr/guides/) · [SSS](https://clearwaveapp.com/tr/faq/)
 
+## Hindi (पूरा संस्करण)
+
+- [होम](https://clearwaveapp.com/hi/) · [गाइड](https://clearwaveapp.com/hi/guides/) · [सवाल-जवाब](https://clearwaveapp.com/hi/faq/)
+
 ## Languages
 
-- English: https://clearwaveapp.com/ · Russian: /ru/ · Spanish: /es/ · French: /fr/ · German: /de/ · Italian: /it/ · Portuguese: /pt/ · Turkish: /tr/
+- English: https://clearwaveapp.com/ · Russian: /ru/ · Spanish: /es/ · French: /fr/ · German: /de/ · Italian: /it/ · Portuguese: /pt/ · Turkish: /tr/ · Hindi: /hi/

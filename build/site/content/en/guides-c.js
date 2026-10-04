@@ -31,7 +31,7 @@ module.exports = [
         ]
     },
     sections: [
-        { h2: '"Liquid Detected in Lightning / USB-C Connector"', html: '<p>iPhone XS, iPhone XR and later can warn you when there\'s liquid in the charging port. When you see it, unplug the cable, tap out the water, and let the phone dry. Don\'t use the "Emergency Override" to charge unless it\'s an emergency. Apple notes that you can still charge with a wireless charger while the port dries.</p>' },
+        { h2: '"Liquid Detected in Lightning / USB-C Connector"', html: '<p>iPhone XS, iPhone XR and later can warn you when there\'s liquid in the charging port. When you see it, unplug the cable, tap out the water, and let the phone dry. Don\'t use the "Emergency Override" to charge unless it\'s an emergency. Apple notes that you can still charge with a wireless charger while the port dries. Full steps: <a href="/guides/water-in-charging-port/">water in the iPhone charging port</a>.</p>' },
         { h2: 'What not to do', html: '<ul class="check-list check-list--no"><li><strong>Rice</strong> — Apple says don\'t: rice dust and particles can get into the phone.</li><li><strong>Hair dryer, oven, radiator</strong> — heat harms the battery and seals.</li><li><strong>Cotton swabs or paper towels in the port</strong>.</li><li><strong>Charging while wet</strong>.</li></ul>' }
     ],
     faqs: [
@@ -162,5 +162,47 @@ module.exports = [
     ],
     related: ['165-hz-water-eject-sound', 'iphone-speaker-crackling', 'decibel-meter-app-iphone'],
     faqLinks: ['what-frequency-removes-water-from-speaker', 'is-clear-wave-free', 'is-water-eject-safe']
+},
+{
+    slug: 'water-in-charging-port',
+    navLabel: 'Water in iPhone charging port',
+    keyword: 'how to get water out of iphone charging port',
+    title: 'Water in iPhone Charging Port: How to Get It Out Fast',
+    description: 'Liquid detected in your iPhone charging port? How to get water out safely, whether vibration helps, how long to wait before charging and what never to do.',
+    h1: 'Water in Your iPhone Charging Port: How to Get It Out',
+    shot: 'clear',
+    quick: 'Unplug the cable, hold the iPhone with the <strong>charging port facing down</strong> and tap it gently against your palm to let the water run out. Leave it somewhere dry with some airflow and wait <strong>at least 30 minutes</strong> before charging (up to 24 hours if the liquid alert keeps coming back). Vibration alone barely moves water in the port — gravity, tapping and time do the work. Don\'t use rice, heat, compressed air or cotton swabs.',
+    intro: '<p>The charging port is the one opening on your iPhone that sound can\'t clear: unlike the speaker, there is no membrane behind it to push water out. That\'s why iPhone XS, XR and later models warn you with <em>"Liquid Detected in Lightning Connector"</em> (or USB-C on newer models) and block wired charging until it dries. Here\'s what actually helps — and where a water eject app does and doesn\'t fit in.</p>',
+    manual: {
+        heading: 'How to get water out of the charging port',
+        steps: [
+            { name: 'Unplug everything', text: 'Disconnect the cable and any accessory from the port. Charging with liquid inside can corrode the pins.' },
+            { name: 'Port down, tap gently', text: 'Hold the iPhone with the charging port facing the floor and tap it against your palm a few times so excess water runs out.' },
+            { name: 'Wipe the outside', text: 'Dry the area around the port with a lint-free cloth. Don\'t push anything into the port.' },
+            { name: 'Let it air-dry', text: 'Leave the iPhone in a dry place with some airflow, port down or on its side. A fan blowing cool air nearby is fine; heat is not.' },
+            { name: 'Wait before charging', text: 'Try charging after at least 30 minutes. If the alert appears again, there\'s still liquid — give it up to a day.' },
+            { name: 'Use wireless charging if you must', text: 'According to Apple, you can keep charging with a wireless charger while the port dries.' }
+        ]
+    },
+    app: {
+        heading: 'Where Clear Wave helps',
+        steps: [
+            { name: 'Clear the speakers next to the port', text: 'Water that reached the port often reached the bottom speaker too. Run a water eject session with the bottom edge facing down.' },
+            { name: 'Turn on Vibration in the session', text: 'Vibration plus low-frequency sound helps shake droplets off the speaker grille right beside the port.' },
+            { name: 'Check the sound with the Stereo Test', text: 'Play left and right separately; if the bottom speaker is still muffled, run another session after the phone has dried a bit.' }
+        ]
+    },
+    sections: [
+        { h2: 'Does vibrating your phone get water out?', html: '<p>Only a little. The iPhone\'s vibration motor shakes the whole phone gently, which can loosen a drop at the edge of the port, but it doesn\'t create airflow inside the port. Tapping with the port facing down does more, and evaporation does the rest. For the <strong>speaker</strong> it\'s different: a low-frequency tone moves the speaker membrane itself, which pumps water out of the grille — that\'s what a water eject tone is for. See <a href="/guides/get-water-out-of-iphone-speaker/">how to get water out of an iPhone speaker</a>.</p>' },
+        { h2: 'What not to do', html: '<ul class="check-list check-list--no"><li><strong>No rice.</strong> Apple says small particles of rice can get into the iPhone.</li><li><strong>No hair dryer or heat source.</strong></li><li><strong>No compressed air</strong> — it can push water deeper.</li><li><strong>No cotton swabs, paper towels or toothpicks</strong> in the port.</li><li><strong>Don\'t ignore the alert</strong> unless it\'s an emergency — Apple offers an emergency override, but charging wet can damage the port and the cable.</li></ul>' },
+        { h2: 'The alert keeps coming back', html: '<p>If the alert returns after a full day of drying, the port may hold lint or corrosion that traps moisture, or the cable itself may be wet. Try a different, dry cable. If it persists, have the port checked by Apple or a repair shop. If the phone went into salt water, soda or chlorinated water, see <a href="/guides/iphone-dropped-in-water/">what to do when an iPhone is dropped in water</a> — Apple recommends rinsing those liquids off with tap water first.</p>' }
+    ],
+    faqs: [
+        { q: 'How long does it take for the charging port to dry?', a: 'Often 30 minutes to a few hours. Apple says it can take up to 24 hours for the port to dry completely if the alert keeps appearing.' },
+        { q: 'Can I charge my iPhone if water is in the charging port?', a: 'Not with a cable until the alert clears. Wireless charging is fine while the port dries, according to Apple.' },
+        { q: 'Does a water eject sound clear the charging port?', a: 'No. Sound moves water out of the speaker grille, not the port. Use it for the muffled speaker next to the port; let the port air-dry.' }
+    ],
+    related: ['iphone-dropped-in-water', 'get-water-out-of-iphone-speaker', 'water-eject-app-iphone'],
+    faqLinks: ['how-long-for-water-to-leave-iphone-speaker', 'should-i-put-wet-iphone-in-rice', 'is-water-eject-safe']
 }
 ];

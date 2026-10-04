@@ -166,10 +166,10 @@ module.exports = [
 {
     slug: 'clean-iphone-speaker-dust',
     navLabel: 'Clean iPhone speaker dust',
-    keyword: 'how to clean iphone speaker',
+    keyword: 'how to remove dust from iphone speaker',
     title: 'How to Clean iPhone Speaker Grills (Dust & Lint) Safely',
     description: 'Clean dust and lint from your iPhone speaker without damage: soft brush, tape trick, and a sound-wave speaker cleaner. What to never use.',
-    h1: 'How to Clean Your iPhone Speaker (Dust, Lint and Grime)',
+    h1: 'How to Remove Dust and Lint from Your iPhone Speaker',
     shot: 'clear',
     quick: 'Power off, then gently brush the speaker grilles with a <strong>soft, dry toothbrush</strong> at an angle. Lift remaining lint with a piece of painter\'s tape or Blu Tack pressed lightly on the grille. Turn the phone on and run a speaker cleaner session (low-frequency sound) to shake loose what\'s left. Never use pins, liquids or compressed air.',
     intro: '<p>Pocket lint, dust and makeup slowly pack into the tiny speaker holes. Because it happens gradually, most people just think their iPhone got quieter with age. A careful clean often brings back a surprising amount of volume and clarity.</p>',

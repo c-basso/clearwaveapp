@@ -1,7 +1,7 @@
 // Ana sayfa (TR). Ana aramalar: hoparlörden su çıkarma, hoparlör temizleme sesi, iPhone hoparlöründen su nasıl çıkar.
 module.exports = {
-    title: 'iPhone Hoparlöründen Suyu Çıkar – Clear Wave Uygulaması',
-    description: 'iPhone hoparlörüne su mu kaçtı? Clear Wave ses dalgalarıyla su ve tozu tek dokunuşta çıkarır ve sesi test eder. iPhone ve iPad için ücretsiz.',
+    title: 'Clear Wave – iPhone Hoparlörden Su Çıkarma Uygulaması',
+    description: 'Clear Wave nedir? Hoparlördeki su ve tozu ses dalgalarıyla tek dokunuşta çıkaran ve sesi test eden ücretsiz iPhone ve iPad uygulaması. Hemen indirin.',
     hero: {
         h1Lead: 'Suyu çıkarın',
         h1Rest: 'iPhone hoparlörünüzden',
@@ -10,7 +10,7 @@ module.exports = {
     },
     download: {
         h2: 'iPhone’unuz su altındaymış gibi mi duyuluyor?',
-        text: 'Kendi kendine kurumasını saatlerce beklemeyin. Clear Wave’i indirin, hoparlörü aşağı çevirin ve bir kez dokunun.',
+        text: 'Kendi kendine kurumasını saatlerce beklemeyin. Clear Wave’i ücretsiz indirin, hoparlörü aşağı çevirin ve bir kez dokunun.',
         facts: [
             { k: '1 dokunuş', v: 'su çıkarmayı başlatmak için' },
             { k: '4', v: 'hoparlör aracı' },

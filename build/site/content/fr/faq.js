@@ -1,6 +1,15 @@
 // Questions. Chacune a sa page /fr/faq/<slug>/ (« En savoir plus ») et apparaît sur l’accueil.
 module.exports = [
 {
+    id: 'what-is-clear-wave', slug: 'quest-ce-que-clear-wave',
+    question: 'Qu’est-ce que Clear Wave ?',
+    title: 'Qu’est-ce que Clear Wave ? L’app pour éjecter l’eau',
+    description: 'Clear Wave est une app gratuite pour iPhone et iPad qui éjecte l’eau et la poussière du haut-parleur par le son, puis le teste. Ce qu’elle fait.',
+    short: 'Clear Wave est une app gratuite pour iPhone et iPad (sur l’App Store : « Éjecter eau du haut-parleur ») qui chasse l’eau et la poussière du haut-parleur par ondes sonores, puis vérifie le son avec un test stéréo, un générateur de fréquence et un sonomètre.',
+    body: '<p>Clear Wave est une app iOS pour un haut-parleur qui sonne étouffé, faible ou grésille après avoir été mouillé ou empoussiéré. Sur l’App Store, elle s’appelle <em>« Éjecter eau du haut-parleur »</em> ; Clear Wave est la marque et ce site.</p><h2>Ce que fait Clear Wave</h2><ul class="check-list"><li><strong>Éjection d’eau et nettoyage</strong> : des séances de son grave poussent l’eau hors de la grille et décollent la poussière.</li><li><strong>Test stéréo</strong> : canal gauche et droit séparément.</li><li><strong>Générateur de fréquence</strong> : n’importe quelle fréquence pour repérer vibrations et trous.</li><li><strong>Sonomètre</strong> : le volume avant et après le nettoyage.</li></ul><h2>Existe-t-il une version en ligne de Clear Wave ?</h2><p>Non. C’est une app pour iPhone et iPad (iOS 17.1+) qui fonctionne hors ligne : inutile de garder un onglet de navigateur ouvert pendant le son. Ce site propose des guides gratuits pas à pas, utilisables aussi sans l’app. Mais vous pouvez jouer <a href="/fr/guides/son-165-hz-ejecter-eau/">gratuitement le son 165 Hz pour éjecter l’eau en ligne</a>, directement dans le navigateur.</p><h2>Qui la développe</h2><p>Clear Wave est développée par un développeur indépendant, sans lien avec Apple ni avec d’autres produits nommés « Clear Wave ». Le téléchargement est gratuit ; l’accès complet à tous les outils est un achat intégré facultatif avec essai gratuit.</p>',
+    guide: 'water-eject-app-iphone'
+},
+{
     id: 'does-water-eject-work', slug: 'ejecter-eau-par-le-son-ca-marche',
     question: 'Éjecter l’eau par le son, ça marche vraiment ?',
     title: 'Éjecter l’eau de l’iPhone par le son : ça marche ?',
