@@ -10,7 +10,8 @@
     "index:google": "node build/gindexnow.js",
     "push": "git add . && git commit -m 'wip' && git push origin main",
     "deploy": "npm run build && npm run validate && npm run sitemap && npm run push",
-    "gsc": "node build/gsc-report.js"
+    "gsc": "node build/gsc-report.js",
+    "index:google:status": "node build/gindexnow.js --status"
   },
   "devDependencies": {
     "jsonld": "^9.0.0",
