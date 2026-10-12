@@ -8,6 +8,7 @@ const {
     LANGUAGES
 } = require('./constants');
 const { readImageDimensions } = require('./lib/imageDimensions');
+const { head: countersHead, body: countersBody } = require('./lib/counters');
 
 (async function() {
     const urlsPath = path.join(__dirname, '..', 'urls.txt');
@@ -36,6 +37,9 @@ const { readImageDimensions } = require('./lib/imageDimensions');
             
             const template = fs.readFileSync(templatePath, 'utf8');
             const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+
+            data.counters_head = countersHead;
+            data.counters_body = countersBody;
             
             // Add build timestamp for cache busting
             const buildTimestamp = Date.now();

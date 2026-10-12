@@ -1,6 +1,7 @@
 // HTML helpers + shared layout. `makeRender(L)` binds everything to one locale (see config.LOCALES).
 const { SITE_URL, APP, ASSETS, SHOT_FILES, LOCALES } = require('./config');
 const { URLS } = require('../constants');
+const { head: countersHead, body: countersBody } = require('../lib/counters');
 const fs = require('fs');
 const path = require('path');
 
@@ -90,8 +91,7 @@ function makeRender(L) {
     ${preloadHero ? `<link rel="preload" as="image" href="${hb}-390.webp" imagesrcset="${hb}-390.webp 390w, ${hb}-780.webp 780w" imagesizes="(max-width: 900px) 64vw, 280px" fetchpriority="high">` : ''}
     <link rel="stylesheet" href="/assets/site.css?v={{VERSION}}">
     ${schema.map(jsonLd).join('\n    ')}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4CQ97HTGF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G4CQ97HTGF');</script>
+    ${countersHead}
 </head>`;
     }
 
@@ -163,11 +163,7 @@ function makeRender(L) {
     function scripts() {
         return `
 <script src="/assets/site.js?v={{VERSION}}" defer></script>
-<script>
-(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
-ym(103203417,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/103203417" style="position:absolute;left:-9999px" alt=""></div></noscript>`;
+${countersBody}`;
     }
 
     // ---------- Schema ----------
