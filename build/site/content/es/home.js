@@ -8,6 +8,23 @@ module.exports = {
         sub: 'Ondas de sonido ajustadas empujan el agua y el polvo atrapados fuera del altavoz con un toque. Después, la prueba estéreo, el generador de tonos y el medidor de decibelios confirman que el sonido volvió a la normalidad.',
         bullets: ['Gratis', 'Funciona sin internet', 'iPhone y iPad', 'iOS 17.1+']
     },
+    // Quick answer under the hero (featured snippet / AI Overview target, see gsc-analysis.md §6.7).
+    answer: {
+        id: "sacar-agua-con-sonido",
+        question: "¿Cómo sacar el agua de la bocina del iPhone con sonido?",
+        h2: "Cómo sacar el agua de la bocina del iPhone con sonido",
+        text: "Para sacar el agua de la bocina (altavoz) del iPhone, pon el volumen al 70–80 %, apunta la rejilla hacia abajo y reproduce un tono grave de unos 165 Hz durante 30–60 segundos. La membrana vibra y empuja el agua y el polvo hacia fuera por la rejilla. Repite 2–3 veces. Para polvo y pelusa incrustados, usa un cepillo suave y seco.",
+        steps: [
+            "<strong>Volumen al 70–80 %</strong>, sin funda, modo silencio desactivado.",
+            "<strong>Bocina hacia abajo</strong> para que el agua salga.",
+            "<strong>Tono de 165 Hz durante 30–60 s</strong> — o un toque en Clear Wave.",
+            "<strong>Repite 2–3 veces</strong> y prueba la bocina izquierda y la derecha."
+        ],
+        more: [
+            { href: "guides/como-sacar-agua-del-altavoz-iphone/", label: "Sacar agua del altavoz del iPhone: guía" },
+            { href: "guides/como-limpiar-bocina-iphone/", label: "Limpiar el polvo de la bocina" }
+        ]
+    },
     download: {
         h2: '¿Tu iPhone suena como bajo el agua?',
         text: 'No esperes horas a que se seque solo. Descarga Clear Wave, pon la bocina hacia abajo y toca una vez.',

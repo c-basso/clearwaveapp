@@ -90,7 +90,7 @@ module.exports = [
     slug: 'misurare-decibel-iphone',
     navLabel: 'Misurare i decibel con l’iPhone',
     keyword: 'misurare decibel iPhone',
-    title: 'Misurare i decibel con l’iPhone: fonometro in dB',
+    title: 'Come misurare i decibel con l’iPhone: fonometro in dB',
     description: 'Trasforma l’iPhone in fonometro: misura il rumore in dB, controlla il volume dell’altoparlante e i livelli sicuri. Incluso in Clear Wave.',
     h1: 'Misurare i decibel con l’iPhone: rumore e volume dell’altoparlante',
     shot: 'meter',

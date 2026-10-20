@@ -8,6 +8,23 @@ module.exports = {
         sub: 'ट्यून की गई साउंड वेव स्पीकर में फँसा पानी और धूल एक टैप में बाहर धकेलती हैं। फिर स्टीरियो टेस्ट, फ़्रीक्वेंसी जनरेटर और डेसिबल मीटर पक्का करते हैं कि आवाज़ फिर से साफ़ है।',
         bullets: ['मुफ़्त', 'बिना इंटरनेट', 'iPhone और iPad', 'iOS 17.1+']
     },
+    // Quick answer under the hero (featured snippet / AI Overview target, see gsc-analysis.md §6.7).
+    answer: {
+        id: "phone-se-pani-kaise-nikale",
+        question: "Phone se pani kaise nikale? iPhone स्पीकर से आवाज़ से पानी कैसे निकालें?",
+        h2: "Phone se pani kaise nikale — iPhone स्पीकर से आवाज़ से पानी निकालें",
+        text: "iPhone स्पीकर से पानी निकालने के लिए वॉल्यूम 70–80% करें, स्पीकर की जाली नीचे की ओर रखें और 30–60 सेकंड तक लगभग 165 Hz की धीमी आवाज़ बजाएँ। काँपती मेम्ब्रेन पानी और ढीली धूल को जाली से बाहर धकेलती है। 2–3 बार दोहराएँ। जाली में फँसी धूल और रोएँ के लिए नरम, सूखे ब्रश का इस्तेमाल करें।",
+        steps: [
+            "<strong>वॉल्यूम 70–80%</strong>, कवर हटाएँ, साइलेंट मोड बंद।",
+            "<strong>स्पीकर नीचे की ओर</strong> रखें ताकि पानी बह जाए।",
+            "<strong>30–60 सेकंड 165 Hz आवाज़</strong> — या Clear Wave में एक टैप।",
+            "<strong>2–3 बार दोहराएँ</strong>, फिर बायाँ और दायाँ स्पीकर जाँचें।"
+        ],
+        more: [
+            { href: "guides/iphone-speaker-se-pani-kaise-nikale/", label: "iPhone स्पीकर से पानी कैसे निकालें" },
+            { href: "guides/iphone-speaker-saaf-kaise-kare/", label: "iPhone स्पीकर कैसे साफ़ करें" }
+        ]
+    },
     download: {
         h2: 'फ़ोन की आवाज़ पानी के अंदर जैसी आ रही है?',
         text: 'घंटों तक सूखने का इंतज़ार न करें। Clear Wave मुफ़्त डाउनलोड करें, स्पीकर नीचे की ओर करें और एक बार टैप करें।',

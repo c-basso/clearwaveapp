@@ -66,8 +66,8 @@ module.exports = [
 {
     id: 'does-water-eject-work-on-airpods', slug: 'sacar-agua-de-airpods',
     question: '¿Funciona expulsar agua en los AirPods?',
-    title: '¿Se puede sacar el agua de los AirPods con sonido?',
-    description: '¿Se puede expulsar el agua de los AirPods con un sonido? Solo en parte. Qué ayuda, qué recomienda Apple y cómo probar el AirPod izquierdo y el derecho.',
+    title: '¿Se puede sacar el agua del altavoz de los AirPods?',
+    description: 'Sacar agua del altavoz de los AirPods con sonido funciona solo en parte. Qué ayuda, qué recomienda Apple y cómo probar el AirPod izquierdo y el derecho.',
     short: 'Solo en parte. Puedes reproducir un tono para expulsar agua con los AirPods conectados, pero sus altavoces son pequeños y sellados, así que el efecto es limitado. Sécalos con un paño sin pelusa, déjalos secar y prueba los canales izquierdo y derecho.',
     body: '<p>Con los AirPods conectados, el audio —incluido el tono para expulsar agua— suena por sus propios altavoces, no por la bocina del iPhone. Eso puede mover un poco de agua de la malla, pero los audífonos son diminutos y sellados, así que el secado importa más que el sonido.</p><h2>Qué hacer con AirPods mojados</h2><ul class="check-list"><li>Sécalos con un paño suave, seco y sin pelusa.</li><li>Déjalos secar por completo antes de meterlos en el estuche de carga.</li><li>No uses calor, aire comprimido ni objetos puntiagudos en la malla.</li><li>Ya secos, haz una prueba estéreo para confirmar que ambos suenan igual.</li></ul><p>Los AirPods (3.ª generación), AirPods Pro y posteriores son resistentes al sudor y al agua, no sumergibles.</p>',
     guide: 'left-right-speaker-test'

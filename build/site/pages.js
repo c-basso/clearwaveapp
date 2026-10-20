@@ -68,9 +68,26 @@ ${R.scripts()}
         const schema = [
             R.schemaApp(), R.schemaOrg(), R.schemaWebsite(),
             R.schemaHowTo({ name: h.how.h2, description: h.how.sub, steps: h.how.steps, image: R.abs(`${L.shotDir}screenshot-2-clear-780.webp`) }),
-            R.schemaFaq(faqs.map((f) => ({ q: f.question, a: f.short }))),
+            R.schemaFaq([
+                ...(h.answer ? [{ q: h.answer.question, a: h.answer.text }] : []),
+                ...faqs.map((f) => ({ q: f.question, a: f.short }))
+            ]),
             R.schemaBreadcrumb([{ name: 'Clear Wave', path: L.base }])
         ];
+        // Optional "quick answer" block right under the hero (featured snippet / AI Overview target).
+        const answerHtml = h.answer ? `
+<section class="answer" id="${h.answer.id}" aria-labelledby="ans-h">
+    <div class="wrap wrap--narrow">
+        <div class="quick quick--home">
+            <p class="quick__label">${t.quick}</p>
+            <h2 id="ans-h">${esc(h.answer.h2)}</h2>
+            <p>${h.answer.text}</p>
+            <ol class="answer__steps">${h.answer.steps.map((x) => `<li>${x}</li>`).join('')}</ol>
+            <p class="answer__more">${h.answer.more.map((m) => `<a href="${url(m.href)}">${esc(m.label)} <span aria-hidden="true">→</span></a>`).join('')}</p>
+        </div>
+    </div>
+</section>
+` : '';
         const shots = ['cover', 'clear', 'test', 'tone', 'meter'];
         const body = `
 <section class="hero">
@@ -103,7 +120,7 @@ ${R.scripts()}
     </div>
     <svg class="waterline" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path class="w2" d="M0 50 C 360 10 720 90 1080 50 S 1440 30 1440 40 V90 H0Z"/></svg>
 </section>
-
+${answerHtml}
 <section class="download" id="download" aria-labelledby="dl-h">
     <div class="wrap download__grid">
         <div>

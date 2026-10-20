@@ -8,6 +8,23 @@ module.exports = {
         sub: 'Des ondes sonores ajustées chassent l’eau et la poussière coincées dans le haut-parleur en un geste. Ensuite, le test stéréo, le générateur de fréquence et le sonomètre confirment que le son est redevenu normal.',
         bullets: ['Gratuit', 'Fonctionne hors ligne', 'iPhone et iPad', 'iOS 17.1+']
     },
+    // Quick answer under the hero (featured snippet / AI Overview target, see gsc-analysis.md §6.7).
+    answer: {
+        id: "ejecter-eau-avec-le-son",
+        question: "Comment éjecter l’eau du haut-parleur de l’iPhone avec le son ?",
+        h2: "Comment éjecter l’eau du haut-parleur de l’iPhone avec le son",
+        text: "Pour éjecter l’eau du haut-parleur de l’iPhone, réglez le volume à 70–80 %, tournez la grille du haut-parleur vers le bas et jouez un son grave d’environ 165 Hz pendant 30 à 60 secondes. La membrane vibre et chasse l’eau et la poussière par la grille. Répétez 2 à 3 fois. Pour la poussière et les peluches incrustées, utilisez une brosse douce et sèche.",
+        steps: [
+            "<strong>Volume à 70–80 %</strong>, sans coque, mode silencieux désactivé.",
+            "<strong>Haut-parleur vers le bas</strong> pour que l’eau s’écoule.",
+            "<strong>Son de 165 Hz pendant 30–60 s</strong> — ou un geste dans Clear Wave.",
+            "<strong>Répétez 2 à 3 fois</strong>, puis testez les haut-parleurs gauche et droit."
+        ],
+        more: [
+            { href: "guides/enlever-eau-haut-parleur-iphone/", label: "Enlever l’eau du haut-parleur : le guide" },
+            { href: "guides/nettoyer-haut-parleur-iphone/", label: "Nettoyer la poussière du haut-parleur" }
+        ]
+    },
     download: {
         h2: 'Votre iPhone sonne comme sous l’eau ?',
         text: 'N’attendez pas des heures qu’il sèche tout seul. Téléchargez Clear Wave, tournez le haut-parleur vers le bas et appuyez une fois.',

@@ -8,6 +8,23 @@ module.exports = {
         sub: 'Abgestimmte Schallwellen drücken eingeschlossenes Wasser und Staub mit einem Tipp aus dem Lautsprecher. Danach bestätigen Stereotest, Frequenzgenerator und Dezibelmesser, dass der Klang wieder normal ist.',
         bullets: ['Kostenlos', 'Funktioniert offline', 'iPhone und iPad', 'iOS 17.1+']
     },
+    // Quick answer under the hero (featured snippet / AI Overview target, see gsc-analysis.md §6.7).
+    answer: {
+        id: "wasser-mit-ton-entfernen",
+        question: "Wie entferne ich Wasser aus dem iPhone-Lautsprecher mit einem Ton?",
+        h2: "Wasser aus dem iPhone-Lautsprecher mit einem Ton entfernen",
+        text: "Um Wasser aus dem iPhone-Lautsprecher zu entfernen, stell die Lautstärke auf 70–80 %, halte das Lautsprechergitter nach unten und spiel 30–60 Sekunden lang einen tiefen Ton von etwa 165 Hz ab. Die vibrierende Membran drückt Wasser und losen Staub durch das Gitter nach außen. Wiederhole das 2–3 Mal. Festsitzenden Staub und Flusen entfernst du mit einer weichen, trockenen Bürste.",
+        steps: [
+            "<strong>Lautstärke 70–80 %</strong>, Hülle ab, Stummschaltung aus.",
+            "<strong>Lautsprecher nach unten</strong>, damit das Wasser abläuft.",
+            "<strong>165-Hz-Ton für 30–60 s</strong> — oder ein Tipp in Clear Wave.",
+            "<strong>2–3 Mal wiederholen</strong>, dann linken und rechten Lautsprecher testen."
+        ],
+        more: [
+            { href: "guides/wasser-aus-iphone-lautsprecher-entfernen/", label: "Wasser aus dem Lautsprecher entfernen" },
+            { href: "guides/iphone-lautsprecher-reinigen/", label: "iPhone-Lautsprecher reinigen" }
+        ]
+    },
     download: {
         h2: 'Klingt dein iPhone wie unter Wasser?',
         text: 'Warte nicht stundenlang, bis es von selbst trocknet. Lade Clear Wave, halte den Lautsprecher nach unten und tippe einmal.',

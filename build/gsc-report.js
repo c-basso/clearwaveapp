@@ -2,6 +2,8 @@
  * Google Search Console export → gsc/ (git-ignored).
  *
  * Usage: node build/gsc-report.js [days=90]
+ *        node build/gsc-report.js --start=2026-09-21 --end=2026-10-04 [--out=gsc/before]
+ *        (custom range; --out writes to a separate folder so period snapshots can be compared)
  * Auth: service_account.json (the service account must be a user of the Search Console property,
  *       and the Search Console API must be enabled in its GCP project).
  * Output (CSV + JSON, overwritten on each run):
@@ -16,7 +18,10 @@ const path = require('path');
 const { google } = require('googleapis');
 
 const ROOT = path.join(__dirname, '..');
-const OUT_DIR = path.join(ROOT, 'gsc');
+const ARGS = Object.fromEntries(
+    process.argv.slice(2).filter((a) => a.startsWith('--')).map((a) => a.slice(2).split('='))
+);
+const OUT_DIR = path.join(ROOT, ARGS.out || 'gsc');
 const KEY_PATH = path.join(ROOT, 'service_account.json');
 const SCOPE = 'https://www.googleapis.com/auth/webmasters.readonly';
 const PROPERTY_CANDIDATES = ['sc-domain:clearwaveapp.com', 'https://clearwaveapp.com/'];
@@ -67,7 +72,11 @@ async function query(sc, siteUrl, startDate, endDate, dimensions) {
 }
 
 async function main() {
-    const days = Number(process.argv[2]) || 90;
+    const days = Number(process.argv.slice(2).find((a) => !a.startsWith('--'))) || 90;
+    const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+    for (const k of ['start', 'end']) {
+        if (ARGS[k] && !DATE_RE.test(ARGS[k])) throw new Error(`--${k} must be YYYY-MM-DD`);
+    }
     if (!fs.existsSync(KEY_PATH)) throw new Error(`Missing ${KEY_PATH}`);
     const key = require(KEY_PATH);
     const auth = new google.auth.JWT({ email: key.client_email, key: key.private_key, scopes: [SCOPE] });
@@ -79,7 +88,8 @@ async function main() {
     end.setDate(end.getDate() - 2); // GSC data lags ~2 days
     const start = new Date(end);
     start.setDate(start.getDate() - days + 1);
-    const [startDate, endDate] = [isoDate(start), isoDate(end)];
+    const endDate = ARGS.end || isoDate(end);
+    const startDate = ARGS.start || (ARGS.end ? isoDate(new Date(Date.parse(ARGS.end) - (days - 1) * 864e5)) : isoDate(start));
     console.log(`📊 ${siteUrl}  ${startDate} → ${endDate}`);
 
     fs.mkdirSync(OUT_DIR, { recursive: true });

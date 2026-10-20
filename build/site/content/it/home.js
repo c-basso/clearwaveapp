@@ -8,6 +8,23 @@ module.exports = {
         sub: 'Onde sonore calibrate spingono fuori acqua e polvere intrappolate nell’altoparlante con un tocco. Poi test stereo, generatore di frequenze e misuratore di decibel confermano che l’audio è tornato normale.',
         bullets: ['Gratis', 'Funziona offline', 'iPhone e iPad', 'iOS 17.1+']
     },
+    // Quick answer under the hero (featured snippet / AI Overview target, see gsc-analysis.md §6.7).
+    answer: {
+        id: "togliere-acqua-con-il-suono",
+        question: "Come togliere l’acqua dall’altoparlante dell’iPhone con il suono?",
+        h2: "Come togliere l’acqua dall’altoparlante dell’iPhone con il suono",
+        text: "Per togliere l’acqua dall’altoparlante dell’iPhone, imposta il volume al 70–80%, rivolgi la griglia verso il basso e riproduci un tono basso di circa 165 Hz per 30–60 secondi. La membrana vibra e spinge fuori acqua e polvere attraverso la griglia. Ripeti 2–3 volte. Per polvere e pelucchi incastrati usa uno spazzolino morbido e asciutto.",
+        steps: [
+            "<strong>Volume al 70–80%</strong>, senza cover, modalità silenziosa disattivata.",
+            "<strong>Altoparlante rivolto verso il basso</strong> perché l’acqua scoli.",
+            "<strong>Tono da 165 Hz per 30–60 s</strong> — o un tocco in Clear Wave.",
+            "<strong>Ripeti 2–3 volte</strong>, poi prova l’altoparlante destro e sinistro."
+        ],
+        more: [
+            { href: "guides/togliere-acqua-altoparlante-iphone/", label: "Togliere l’acqua dall’altoparlante: guida" },
+            { href: "guides/pulire-altoparlante-iphone/", label: "Pulire l’altoparlante dalla polvere" }
+        ]
+    },
     download: {
         h2: 'Il tuo iPhone suona come sott’acqua?',
         text: 'Non aspettare ore che si asciughi da solo. Scarica Clear Wave, rivolgi l’altoparlante verso il basso e tocca una volta.',

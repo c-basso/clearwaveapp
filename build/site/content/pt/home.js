@@ -8,6 +8,23 @@ module.exports = {
         sub: 'Ondas sonoras calibradas empurram para fora a água e a poeira presas no alto-falante com um toque. Depois, o teste estéreo, o gerador de frequência e o medidor de decibéis confirmam que o som voltou ao normal.',
         bullets: ['Grátis', 'Funciona offline', 'iPhone e iPad', 'iOS 17.1+']
     },
+    // Quick answer under the hero (featured snippet / AI Overview target, see gsc-analysis.md §6.7).
+    answer: {
+        id: "tirar-agua-com-som",
+        question: "Como tirar água do alto-falante do iPhone com som?",
+        h2: "Como tirar água do alto-falante do iPhone com som",
+        text: "Para tirar água do alto-falante do iPhone, coloque o volume em 70–80%, vire a grade do alto-falante para baixo e toque um som grave de cerca de 165 Hz por 30–60 segundos. A membrana vibra e empurra a água e a poeira pela grade. Repita 2–3 vezes. Para poeira e fiapos presos, use uma escova macia e seca.",
+        steps: [
+            "<strong>Volume em 70–80%</strong>, sem capinha, modo silencioso desligado.",
+            "<strong>Alto-falante virado para baixo</strong> para a água escorrer.",
+            "<strong>Som de 165 Hz por 30–60 s</strong> — ou um toque no Clear Wave.",
+            "<strong>Repita 2–3 vezes</strong> e teste o alto-falante esquerdo e o direito."
+        ],
+        more: [
+            { href: "guides/como-tirar-agua-do-alto-falante-iphone/", label: "Como tirar água do alto-falante: guia" },
+            { href: "guides/limpar-alto-falante-iphone/", label: "Como limpar a poeira do alto-falante" }
+        ]
+    },
     download: {
         h2: 'Seu iPhone está com som de debaixo d’água?',
         text: 'Não espere horas até secar sozinho. Baixe o Clear Wave, vire o alto-falante para baixo e toque uma vez.',

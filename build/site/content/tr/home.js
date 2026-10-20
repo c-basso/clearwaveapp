@@ -8,6 +8,23 @@ module.exports = {
         sub: 'Ayarlanmış ses dalgaları hoparlörde sıkışan su ve tozu tek dokunuşta dışarı iter. Ardından stereo test, frekans üreteci ve desibel ölçer sesin normale döndüğünü doğrular.',
         bullets: ['Ücretsiz', 'Çevrimdışı çalışır', 'iPhone ve iPad', 'iOS 17.1+']
     },
+    // Quick answer under the hero (featured snippet / AI Overview target, see gsc-analysis.md §6.7).
+    answer: {
+        id: "iphone-su-cikarma-sesi",
+        question: "iPhone su çıkarma sesi nasıl kullanılır?",
+        h2: "iPhone su çıkarma sesi nasıl kullanılır",
+        text: "iPhone hoparlöründen suyu çıkarmak için sesi %70–80’e getirin, hoparlör ızgarasını aşağı çevirin ve 30–60 saniye boyunca yaklaşık 165 Hz’lik pes bir su çıkarma sesi çalın. Titreşen zar suyu ve gevşek tozu ızgaradan dışarı iter. 2–3 kez tekrarlayın. Izgaraya sıkışan toz ve tüy için yumuşak, kuru bir fırça kullanın.",
+        steps: [
+            "<strong>Ses %70–80</strong>, kılıf çıkarılmış, sessiz mod kapalı.",
+            "<strong>Hoparlör aşağı bakacak</strong> şekilde tutun, su aksın.",
+            "<strong>30–60 sn 165 Hz ses çalın</strong> — ya da Clear Wave’de tek dokunuş.",
+            "<strong>2–3 kez tekrarlayın</strong>, sonra sol ve sağ hoparlörü test edin."
+        ],
+        more: [
+            { href: "guides/iphone-hoparlorden-su-nasil-cikar/", label: "iPhone hoparlöründen su nasıl çıkar" },
+            { href: "guides/iphone-hoparlor-temizleme/", label: "Hoparlörden toz nasıl temizlenir" }
+        ]
+    },
     download: {
         h2: 'iPhone’unuz su altındaymış gibi mi duyuluyor?',
         text: 'Kendi kendine kurumasını saatlerce beklemeyin. Clear Wave’i ücretsiz indirin, hoparlörü aşağı çevirin ve bir kez dokunun.',

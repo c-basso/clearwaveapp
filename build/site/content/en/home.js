@@ -9,6 +9,24 @@ module.exports = {
         sub: 'Tuned sound waves push trapped water and dust out of your iPhone speaker in one tap. Then a stereo test, tone generator and dB meter confirm the sound is back to normal.',
         bullets: ['Free download', 'Works offline', 'iPhone & iPad', 'iOS 17.1+']
     },
+    // Quick answer under the hero. Targets "how to clean iphone speaker (with sound / dust)",
+    // "how to get water out of phone speaker" — lost featured-snippet position 1 in Aug 2026 (see gsc-analysis.md §6.6).
+    answer: {
+        id: 'how-to-clean-iphone-speaker',
+        question: 'How do I clean my iPhone speaker with sound?',
+        h2: 'How to clean your iPhone speaker with sound',
+        text: 'To clean an iPhone speaker with sound, set the volume to 70–80%, point the speaker grille down and play a low tone of about 165 Hz for 30–60 seconds. The vibrating membrane pumps water and loose dust out through the grille. Repeat 2–3 times. For packed-in dust or lint, gently brush the grille with a soft, dry toothbrush.',
+        steps: [
+            '<strong>Volume 70–80%</strong>, case off, silent mode off.',
+            '<strong>Speaker grille facing down</strong> so water drains out.',
+            '<strong>Play a 165 Hz tone for 30–60 s</strong> — or one tap in Clear Wave.',
+            '<strong>Repeat 2–3 times</strong>, then test left and right speakers.'
+        ],
+        more: [
+            { href: 'guides/get-water-out-of-iphone-speaker/', label: 'Get water out of an iPhone speaker' },
+            { href: 'guides/clean-iphone-speaker-dust/', label: 'Remove dust from an iPhone speaker' }
+        ]
+    },
     download: {
         h2: 'Speaker sounds underwater right now?',
         text: 'Don\'t wait hours for it to dry. Download Clear Wave, face the speaker down and tap once.',

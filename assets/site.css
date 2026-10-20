@@ -373,3 +373,12 @@ tbody tr:last-child td { border-bottom: 0; }
 .article .tone-player__label { color: var(--aqua); }
 .article .tone-player__note, .article .tone-player__range { color: rgba(255,255,255,.82); opacity: 1; }
 .article .tone-player__hz { color: #fff; }
+
+/* Home: quick answer under the hero (featured snippet target) */
+.answer { padding: 44px 0 8px; }
+.quick--home { margin: 0; }
+.quick--home h2 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); margin: 0 0 10px; }
+.answer__steps { padding-left: 1.3em; margin: 0 0 14px; }
+.answer__steps li { margin: 4px 0; }
+.answer__more { display: flex; flex-wrap: wrap; gap: 8px 20px; font-weight: 600; }
+@media (max-width: 700px) { .answer { padding-top: 32px; } .quick--home { margin: 0; } }
